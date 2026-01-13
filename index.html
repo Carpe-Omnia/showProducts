@@ -217,6 +217,19 @@
         updateClock();
 
         window.addEventListener('DOMContentLoaded', init);
+
+        // Function to toggle fullscreen
+        function toggleFullScreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                console.log(`Error attempting to enable full-screen mode: ${err.message}`);
+            });
+        }
+        }
+
+        // You can trigger this by clicking anywhere on the screen
+        window.addEventListener('click', toggleFullScreen);
+
     </script>
 </body>
 </html>
