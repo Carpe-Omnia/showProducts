@@ -18,6 +18,7 @@
             overflow: hidden;
             margin: 0;
             height: 100vh;
+            cursor: pointer; /* Hint that clicking does something (fullscreen) */
         }
         .product-image-container {
             box-shadow: 0 0 80px rgba(16, 185, 129, 0.1);
@@ -51,12 +52,6 @@
     <div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-emerald-900/20 blur-[150px] rounded-full"></div>
     <div class="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-900/10 blur-[150px] rounded-full"></div>
 
-    <!-- Debug Console (Hidden by default, shows on error) -->
-    <div id="debug-log" class="fixed top-4 right-4 z-50 bg-red-900/80 p-4 rounded-xl border border-red-500 text-xs font-mono max-w-sm hidden">
-        <p class="font-bold mb-1 underline">Connection Alert:</p>
-        <p id="debug-msg"></p>
-    </div>
-
     <div id="app" class="relative w-full h-full flex flex-col items-center justify-center p-16">
         
         <!-- Main Display Card -->
@@ -71,7 +66,7 @@
             <!-- Right: Product Details -->
             <div class="col-span-7 space-y-8 pl-10">
                 <div class="flex items-center gap-6">
-                    <span id="p-category" class="category-badge px-6 py-2 rounded-full text-green-400 font-bold text-2xl uppercase">FLOWER</span>
+                    <span id="p-category" class="category-badge px-6 py-2 rounded-full text-green-400 font-bold text-2xl uppercase">---</span>
                     <span id="p-meta" class="text-3xl text-slate-400 font-medium">THC: --%</span>
                 </div>
 
@@ -104,58 +99,57 @@
     </div>
 
     <script>
+        /**
+         * CONFIGURATION
+         */
+        // Use your GitHub Raw URL here for the TV to pull from.
+        // Example: https://raw.githubusercontent.com/username/repo/main/products.json
         const DATA_PATH = 'products.json'; 
-        const SLIDE_DURATION = 12000;    
+        const SLIDE_DURATION = 12000;    // 12 seconds per slide
+        const SYNC_INTERVAL = 300000;    // Check for updates every 5 minutes (300,000ms)
         
         let products = [];
         let currentIndex = 0;
+        let rotationTimer = null;
 
         async function init() {
-            console.log("Attempting to fetch data from:", DATA_PATH);
             try {
-                const response = await fetch(DATA_PATH);
-                console.log("Fetch response status:", response.status);
+                await fetchData();
+                document.getElementById('loader').style.opacity = '0';
+                setTimeout(() => document.getElementById('loader')?.remove(), 1000);
+                startRotation();
                 
-                if (!response.ok) {
-                    throw new Error(`HTTP Error: ${response.status}`);
-                }
-                
-                products = await response.json();
-                console.log("Successfully loaded products:", products.length);
-                
-                if (products.length === 0) throw new Error("JSON file is empty");
-                renderApp();
+                // Set up the background sync
+                setInterval(fetchData, SYNC_INTERVAL);
             } catch (err) {
-                console.error("Data Load Failed:", err);
-                
-                // Show debug message to user
-                const debugBox = document.getElementById('debug-log');
-                const debugMsg = document.getElementById('debug-msg');
-                debugBox.classList.remove('hidden');
-                
-                if (window.location.protocol === 'file:') {
-                    debugMsg.innerHTML = "<b>CORS Error:</b> Browsers block local file access for security. Use a local server (like Live Server extension) or upload these files to a website to see your real products.";
-                } else {
-                    debugMsg.textContent = `Error: ${err.message}. Check if products.json exists in this folder.`;
-                }
-
-                // Fallback data
-                products = [
-                    { name: "Blue Dream", price: "$45.00", meta: "THC: 22.5%", category: "FLOWER", image: "" },
-                    { name: "Sour Diesel Pre-Roll", price: "$12.00", meta: "THC: 18.0%", category: "PRE-ROLLS", image: "" },
-                    { name: "OG Kush Vape", price: "$55.00", meta: "THC: 88.2%", category: "VAPORIZERS", image: "" }
-                ];
+                console.error("Initialization failed:", err);
+                // Fallback for visual testing if file is missing
+                products = [{ name: "Connect products.json", price: "$0.00", meta: "No Data", category: "SYSTEM" }];
                 renderApp();
             }
         }
 
-        function renderApp() {
-            document.getElementById('loader').style.opacity = '0';
-            setTimeout(() => document.getElementById('loader').remove(), 1000);
-            startRotation();
+        async function fetchData() {
+            try {
+                // We add a timestamp query param to bypass browser cache
+                const response = await fetch(`${DATA_PATH}?t=${Date.now()}`);
+                if (!response.ok) throw new Error("File not found");
+                
+                const newData = await response.json();
+                
+                // Logic to update live without jump-cuts
+                if (JSON.stringify(newData) !== JSON.stringify(products)) {
+                    console.log("[Sync] New product data detected. Updating menu...");
+                    products = newData;
+                }
+            } catch (err) {
+                console.warn("[Sync] Could not reach products.json. Continuing with current data.");
+            }
         }
 
         function updateUI(item) {
+            if (!item) return;
+
             const container = document.getElementById('content-area');
             const progress = document.getElementById('progress');
             
@@ -176,11 +170,10 @@
                 img.classList.add('hidden');
                 placeholder.classList.add('hidden');
 
-                if (item.image && (item.image.startsWith('http') || item.image.startsWith('data:'))) {
+                if (item.image && item.image.startsWith('http')) {
                     img.src = item.image;
                     img.onload = () => img.classList.remove('hidden');
                     img.onerror = () => {
-                        console.warn(`Failed to load image for ${item.name}:`, item.image);
                         placeholder.classList.remove('hidden');
                         placeholder.textContent = '🌿';
                     };
@@ -201,13 +194,16 @@
         }
 
         function startRotation() {
+            if (rotationTimer) clearInterval(rotationTimer);
             updateUI(products[currentIndex]);
-            setInterval(() => {
+            
+            rotationTimer = setInterval(() => {
                 currentIndex = (currentIndex + 1) % products.length;
                 updateUI(products[currentIndex]);
             }, SLIDE_DURATION);
         }
 
+        // Clock
         function updateClock() {
             const now = new Date();
             const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
@@ -216,20 +212,14 @@
         setInterval(updateClock, 1000);
         updateClock();
 
+        // Fullscreen Toggle on Click
+        window.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(e => console.error(e));
+            }
+        });
+
         window.addEventListener('DOMContentLoaded', init);
-
-        // Function to toggle fullscreen
-        function toggleFullScreen() {
-        if (!document.fullscreenElement) {
-            document.documentElement.requestFullscreen().catch(err => {
-                console.log(`Error attempting to enable full-screen mode: ${err.message}`);
-            });
-        }
-        }
-
-        // You can trigger this by clicking anywhere on the screen
-        window.addEventListener('click', toggleFullScreen);
-
     </script>
 </body>
 </html>
