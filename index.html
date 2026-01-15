@@ -44,7 +44,6 @@
             transition: width linear;
         }
 
-        /* Helper for very long text transitions */
         #p-name {
             transition: font-size 0.5s ease;
         }
@@ -65,9 +64,8 @@
             <div class="col-span-7 space-y-8 pl-10">
                 <div class="flex items-center gap-6">
                     <span id="p-category" class="category-badge px-6 py-2 rounded-full text-green-400 font-bold text-2xl uppercase">---</span>
-                    <span id="p-meta" class="text-3xl text-slate-400 font-medium">THC: --%</span>
+                    <span id="p-meta" class="text-3xl text-slate-400 font-medium">---</span>
                 </div>
-                <!-- Dynamic font size applied here -->
                 <h1 id="p-name" class="font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl">---</h1>
                 <div class="flex items-end gap-8 pt-8">
                     <div id="p-price" class="text-9xl font-black text-green-500 price-glow tracking-tighter">$ --.--</div>
@@ -99,6 +97,17 @@
         let currentIndex = 0;
         let rotationTimer = null;
 
+        /**
+         * Fisher-Yates Shuffle Algorithm
+         */
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
         async function init() {
             await fetchData();
             if (products.length === 0) {
@@ -119,26 +128,28 @@
                 const url = isRemote ? `${DATA_PATH}?t=${Date.now()}` : DATA_PATH;
                 const response = await fetch(url);
                 if (!response.ok) throw new Error("File not found");
-                const newData = await response.json();
+                let newData = await response.json();
+                
+                // Shuffle newly fetched data to keep the sign varied
+                newData = shuffleArray(newData);
+
                 if (JSON.stringify(newData) !== JSON.stringify(products)) {
                     products = newData;
+                    // Reset index if current is out of bounds
+                    if (currentIndex >= products.length) currentIndex = 0;
                 }
             } catch (err) {
                 console.warn("Fetch failed:", err.message);
             }
         }
 
-        /**
-         * Dynamic Font Sizer
-         * Returns a Tailwind text-size class based on string length
-         */
         function getDynamicFontSizeClass(text) {
             const len = text.length;
             if (len > 80) return 'text-4xl';
             if (len > 60) return 'text-5xl';
             if (len > 40) return 'text-6xl';
             if (len > 25) return 'text-7xl';
-            return 'text-[7rem]'; // Default giant size
+            return 'text-[7rem]';
         }
 
         function updateUI(item) {
@@ -152,12 +163,11 @@
             progress.style.width = '0%';
 
             setTimeout(() => {
-                // Apply dynamic sizing
                 nameEl.className = `font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl ${getDynamicFontSizeClass(item.name)}`;
                 nameEl.textContent = item.name;
 
                 document.getElementById('p-price').textContent = item.price;
-                document.getElementById('p-meta').textContent = item.meta || "Featured Item";
+                document.getElementById('p-meta').textContent = item.meta || "N/A";
                 document.getElementById('p-category').textContent = item.category || "MENU";
                 document.getElementById('item-counter').textContent = `${String(currentIndex + 1).padStart(2, '0')} / ${products.length}`;
                 

@@ -1,13 +1,16 @@
 import asyncio
 import json
 import re
+import random
 from playwright.async_api import async_playwright
 
-# Configuration
+# Configuration - Added Edibles and Concentrates
 CATEGORIES = [
     {"name": "FLOWER", "url": "https://gsngdispensary.com/shop/categories/flower"},
     {"name": "PRE-ROLLS", "url": "https://gsngdispensary.com/shop/categories/pre-rolls"},
-    {"name": "VAPORIZERS", "url": "https://gsngdispensary.com/shop/categories/vaporizers"}
+    {"name": "VAPORIZERS", "url": "https://gsngdispensary.com/shop/categories/vaporizers"},
+    {"name": "EDIBLES", "url": "https://gsngdispensary.com/shop/categories/edibles"},
+    {"name": "CONCENTRATES", "url": "https://gsngdispensary.com/shop/categories/concentrates"}
 ]
 OUTPUT_FILE = "products.json"
 
@@ -40,7 +43,6 @@ async def scroll_to_load_all(page):
 async def scrape_page_products(page, category_label):
     """Extracts product details from the current page state."""
     products = []
-    # Using the outer card selector identified from your HTML
     cards = await page.query_selector_all('[data-testid="product-card-div"]')
     if not cards:
         cards = await page.query_selector_all('[data-testid="card-outer"]')
@@ -64,22 +66,15 @@ async def scrape_page_products(page, category_label):
                 full_name = name
 
             # 4. Get Price (Sale-Aware Logic)
-            # We want the lowest price found on the card (the "Sale" price)
             found_prices = []
-            
-            # Search all elements that might contain price info
             price_elements = await card.query_selector_all('[data-testid*="price"], [data-testid*="discount"]')
             
             for el in price_elements:
                 text = (await el.inner_text()).strip()
                 testid = await el.get_attribute('data-testid') or ""
-                
-                # Check text and test-id for numeric patterns
                 combined = f"{text} {testid}"
-                # Find all dollar amounts (e.g., $35.75, $45)
                 matches = re.findall(r"\$(\d+\.?\d*)", combined)
                 
-                # If no $ found, check the numeric suffix in testid (variant-price-45)
                 if not matches:
                     attr_match = re.search(r"price(?:-original)?-(\d+\.?\d*)", testid)
                     if attr_match:
@@ -91,12 +86,10 @@ async def scrape_page_products(page, category_label):
                     except ValueError:
                         continue
 
-            # Pick the lowest price (Sale price) if available, else $0.00
             if found_prices:
                 best_price = min(found_prices)
                 price = f"${best_price:,.2f}"
             else:
-                # Absolute fallback: regex the entire card text
                 full_text = await card.inner_text()
                 all_text_prices = re.findall(r"\$(\d+\.?\d*)", full_text)
                 if all_text_prices:
@@ -105,10 +98,11 @@ async def scrape_page_products(page, category_label):
                 else:
                     price = "$0.00"
 
-            # 5. Get Metadata (THC)
+            # 5. Get Metadata (THC/Potency)
             card_text = await card.inner_text()
-            thc_match = re.search(r"(THCa?|CBD)\s*(\d+\.?\d*%)", card_text, re.IGNORECASE)
-            thc = thc_match.group(2) if thc_match else "N/A"
+            # Catch THC or MG (for edibles)
+            meta_match = re.search(r"((?:THCa?|CBD|Total THC)\s*\d+\.?\d*%|\d+\s*mg)", card_text, re.IGNORECASE)
+            meta_val = meta_match.group(0) if meta_match else "N/A"
 
             # 6. Get Image
             img_el = await card.query_selector('img')
@@ -118,7 +112,7 @@ async def scrape_page_products(page, category_label):
                 products.append({
                     "name": full_name,
                     "price": price,
-                    "meta": f"THC: {thc}",
+                    "meta": meta_val,
                     "category": category_label,
                     "image": img_url
                 })
@@ -155,8 +149,10 @@ async def main():
             except Exception as e:
                 print(f"[!] Error scraping {category['name']}: {e}")
 
-        # Final cleanup and save
+        # Final cleanup: Remove duplicates and shuffle the final list
         unique_products = list({p['name']: p for p in all_products}.values())
+        random.shuffle(unique_products) # Shuffle here for the initial load
+        
         with open(OUTPUT_FILE, "w") as f:
             json.dump(unique_products, f, indent=4)
         
