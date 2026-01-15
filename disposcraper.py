@@ -43,7 +43,6 @@ async def scrape_page_products(page, category_label):
     # Using the outer card selector identified from your HTML
     cards = await page.query_selector_all('[data-testid="product-card-div"]')
     if not cards:
-        # Fallback to the generic outer card if the specific div isn't found
         cards = await page.query_selector_all('[data-testid="card-outer"]')
         
     print(f"[*] Found {len(cards)} cards in {category_label}. Parsing...")
@@ -64,53 +63,50 @@ async def scrape_page_products(page, category_label):
             else:
                 full_name = name
 
-            # 4. Get Price (Robust Logic)
-            price = "$0.00"
-            price_found = False
+            # 4. Get Price (Sale-Aware Logic)
+            # We want the lowest price found on the card (the "Sale" price)
+            found_prices = []
             
-            # Step A: Check elements with price-related test-ids
+            # Search all elements that might contain price info
             price_elements = await card.query_selector_all('[data-testid*="price"], [data-testid*="discount"]')
             
             for el in price_elements:
-                # Check 1: Content of the element
                 text = (await el.inner_text()).strip()
-                # Check 2: The test-id attribute itself (handles variant-price-45)
                 testid = await el.get_attribute('data-testid') or ""
                 
-                # Combine both to look for a price match
-                combined_source = f"{text} {testid}"
+                # Check text and test-id for numeric patterns
+                combined = f"{text} {testid}"
+                # Find all dollar amounts (e.g., $35.75, $45)
+                matches = re.findall(r"\$(\d+\.?\d*)", combined)
                 
-                # Look for patterns like $45.00 or $45
-                match = re.search(r"\$(\d+\.?\d*)", combined_source)
-                if not match:
-                    # Look for the specific numeric suffix in the test-id if no $ is present
-                    # e.g., variant-price-45 -> matches 45
-                    match = re.search(r"price-(\d+\.?\d*)", testid)
-                
-                if match:
-                    val = match.group(1)
-                    # Standardize to $XX.XX
-                    if "." in val:
-                        parts = val.split(".")
-                        price = f"${parts[0]}.{parts[1][:2].ljust(2, '0')}"
-                    else:
-                        price = f"${val}.00"
-                    
-                    if price != "$0.00":
-                        price_found = True
-                        break
-            
-            # Step B: Broad Fallback - check entire card text for first $ sign
-            if not price_found:
-                full_card_text = await card.inner_text()
-                price_match = re.search(r"\$\d+\.?\d*", full_card_text)
-                if price_match:
-                    price = price_match.group(0)
-                    if "." not in price: price += ".00"
+                # If no $ found, check the numeric suffix in testid (variant-price-45)
+                if not matches:
+                    attr_match = re.search(r"price(?:-original)?-(\d+\.?\d*)", testid)
+                    if attr_match:
+                        matches = [attr_match.group(1)]
+
+                for val in matches:
+                    try:
+                        found_prices.append(float(val))
+                    except ValueError:
+                        continue
+
+            # Pick the lowest price (Sale price) if available, else $0.00
+            if found_prices:
+                best_price = min(found_prices)
+                price = f"${best_price:,.2f}"
+            else:
+                # Absolute fallback: regex the entire card text
+                full_text = await card.inner_text()
+                all_text_prices = re.findall(r"\$(\d+\.?\d*)", full_text)
+                if all_text_prices:
+                    best_price = min([float(p) for p in all_text_prices])
+                    price = f"${best_price:,.2f}"
+                else:
+                    price = "$0.00"
 
             # 5. Get Metadata (THC)
             card_text = await card.inner_text()
-            # Match THC, THCa, or CBD percentages
             thc_match = re.search(r"(THCa?|CBD)\s*(\d+\.?\d*%)", card_text, re.IGNORECASE)
             thc = thc_match.group(2) if thc_match else "N/A"
 
@@ -126,8 +122,7 @@ async def scrape_page_products(page, category_label):
                     "category": category_label,
                     "image": img_url
                 })
-        except Exception as e:
-            # print(f"Error parsing card: {e}")
+        except Exception:
             continue
     return products
 
@@ -147,7 +142,6 @@ async def main():
                 await page.goto(category['url'], wait_until="domcontentloaded", timeout=60000)
                 await handle_age_gate(page)
                 
-                # Check for any of the card identifiers
                 await page.wait_for_function(
                     "document.querySelector('[data-testid=\"product-card-div\"]') || document.querySelector('[data-testid=\"card-outer\"]')",
                     timeout=20000
