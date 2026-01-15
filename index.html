@@ -18,12 +18,11 @@
             overflow: hidden;
             margin: 0;
             height: 100vh;
-            cursor: pointer; /* Hint that clicking does something (fullscreen) */
+            cursor: pointer;
         }
         .product-image-container {
             box-shadow: 0 0 80px rgba(16, 185, 129, 0.1);
         }
-        /* Cinematic Fade Transition */
         .fade-enter { opacity: 0; transform: translateY(30px) scale(0.98); }
         .fade-active { opacity: 1; transform: translateY(0) scale(1); transition: all 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
         
@@ -44,121 +43,119 @@
             width: 0%;
             transition: width linear;
         }
+
+        /* Helper for very long text transitions */
+        #p-name {
+            transition: font-size 0.5s ease;
+        }
     </style>
 </head>
 <body class="flex items-center justify-center">
 
-    <!-- Background Ambient Glow -->
     <div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-emerald-900/20 blur-[150px] rounded-full"></div>
     <div class="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-900/10 blur-[150px] rounded-full"></div>
 
     <div id="app" class="relative w-full h-full flex flex-col items-center justify-center p-16">
-        
-        <!-- Main Display Card -->
         <div id="content-area" class="fade-enter w-full max-w-[1600px] grid grid-cols-12 gap-16 items-center">
-            
-            <!-- Left: Hero Image -->
             <div class="col-span-5 relative product-image-container rounded-[4rem] overflow-hidden aspect-square bg-white/5 border border-white/10 flex items-center justify-center">
                 <img id="p-image" src="" class="w-full h-full object-contain p-8 hidden" alt="">
                 <div id="p-placeholder" class="w-full h-full flex items-center justify-center text-[15rem] opacity-20">🌿</div>
             </div>
 
-            <!-- Right: Product Details -->
             <div class="col-span-7 space-y-8 pl-10">
                 <div class="flex items-center gap-6">
                     <span id="p-category" class="category-badge px-6 py-2 rounded-full text-green-400 font-bold text-2xl uppercase">---</span>
                     <span id="p-meta" class="text-3xl text-slate-400 font-medium">THC: --%</span>
                 </div>
-
-                <h1 id="p-name" class="text-[7rem] font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl">---</h1>
-                
+                <!-- Dynamic font size applied here -->
+                <h1 id="p-name" class="font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl">---</h1>
                 <div class="flex items-end gap-8 pt-8">
                     <div id="p-price" class="text-9xl font-black text-green-500 price-glow tracking-tighter">$ --.--</div>
                 </div>
             </div>
         </div>
 
-        <!-- Footer Info -->
         <div class="absolute bottom-16 left-16 right-16 flex justify-between items-end border-t border-white/5 pt-8">
             <div class="space-y-1">
                 <div class="text-slate-500 font-bold tracking-widest text-xl uppercase">GSNG Dispensary</div>
                 <div id="item-counter" class="text-green-500/50 font-mono text-lg">01 / --</div>
             </div>
-            
             <div id="clock" class="text-5xl font-light text-slate-300 tabular-nums">00:00 PM</div>
         </div>
-
-        <!-- Loading Progress -->
         <div id="progress" class="progress-bar"></div>
     </div>
 
-    <!-- Loading Overlay -->
     <div id="loader" class="fixed inset-0 bg-slate-950 flex flex-col items-center justify-center z-50 transition-opacity duration-1000">
         <div class="w-24 h-24 border-4 border-green-500/20 border-t-green-500 rounded-full animate-spin mb-8"></div>
         <p class="text-slate-400 font-bold tracking-widest uppercase">Fetching Fresh Menu...</p>
     </div>
 
     <script>
-        /**
-         * CONFIGURATION
-         */
-        // Use your GitHub Raw URL here for the TV to pull from.
-        // Example: https://raw.githubusercontent.com/username/repo/main/products.json
         const DATA_PATH = 'products.json'; 
-        const SLIDE_DURATION = 12000;    // 12 seconds per slide
-        const SYNC_INTERVAL = 300000;    // Check for updates every 5 minutes (300,000ms)
+        const SLIDE_DURATION = 12000;    
+        const SYNC_INTERVAL = 60000; 
         
         let products = [];
         let currentIndex = 0;
         let rotationTimer = null;
 
         async function init() {
-            try {
-                await fetchData();
-                document.getElementById('loader').style.opacity = '0';
-                setTimeout(() => document.getElementById('loader')?.remove(), 1000);
-                startRotation();
-                
-                // Set up the background sync
-                setInterval(fetchData, SYNC_INTERVAL);
-            } catch (err) {
-                console.error("Initialization failed:", err);
-                // Fallback for visual testing if file is missing
-                products = [{ name: "Connect products.json", price: "$0.00", meta: "No Data", category: "SYSTEM" }];
-                renderApp();
+            await fetchData();
+            if (products.length === 0) {
+                products = [{ name: "Waiting for Data...", price: "$0.00", meta: "Check products.json", category: "SYSTEM" }];
             }
+            const loader = document.getElementById('loader');
+            if (loader) {
+                loader.style.opacity = '0';
+                setTimeout(() => loader.remove(), 1000);
+            }
+            startRotation();
+            setInterval(fetchData, SYNC_INTERVAL);
         }
 
         async function fetchData() {
             try {
-                // We add a timestamp query param to bypass browser cache
-                const response = await fetch(`${DATA_PATH}?t=${Date.now()}`);
+                const isRemote = DATA_PATH.startsWith('http');
+                const url = isRemote ? `${DATA_PATH}?t=${Date.now()}` : DATA_PATH;
+                const response = await fetch(url);
                 if (!response.ok) throw new Error("File not found");
-                
                 const newData = await response.json();
-                
-                // Logic to update live without jump-cuts
                 if (JSON.stringify(newData) !== JSON.stringify(products)) {
-                    console.log("[Sync] New product data detected. Updating menu...");
                     products = newData;
                 }
             } catch (err) {
-                console.warn("[Sync] Could not reach products.json. Continuing with current data.");
+                console.warn("Fetch failed:", err.message);
             }
+        }
+
+        /**
+         * Dynamic Font Sizer
+         * Returns a Tailwind text-size class based on string length
+         */
+        function getDynamicFontSizeClass(text) {
+            const len = text.length;
+            if (len > 80) return 'text-4xl';
+            if (len > 60) return 'text-5xl';
+            if (len > 40) return 'text-6xl';
+            if (len > 25) return 'text-7xl';
+            return 'text-[7rem]'; // Default giant size
         }
 
         function updateUI(item) {
             if (!item) return;
-
             const container = document.getElementById('content-area');
             const progress = document.getElementById('progress');
+            const nameEl = document.getElementById('p-name');
             
             container.classList.remove('fade-active');
             progress.style.transition = 'none';
             progress.style.width = '0%';
 
             setTimeout(() => {
-                document.getElementById('p-name').textContent = item.name;
+                // Apply dynamic sizing
+                nameEl.className = `font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl ${getDynamicFontSizeClass(item.name)}`;
+                nameEl.textContent = item.name;
+
                 document.getElementById('p-price').textContent = item.price;
                 document.getElementById('p-meta').textContent = item.meta || "Featured Item";
                 document.getElementById('p-category').textContent = item.category || "MENU";
@@ -166,7 +163,6 @@
                 
                 const img = document.getElementById('p-image');
                 const placeholder = document.getElementById('p-placeholder');
-                
                 img.classList.add('hidden');
                 placeholder.classList.add('hidden');
 
@@ -179,43 +175,36 @@
                     };
                 } else {
                     placeholder.classList.remove('hidden');
-                    const emojis = ['🌿', '🔥', '✨', '🍃', '💨'];
-                    placeholder.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+                    placeholder.textContent = '🌿';
                 }
 
                 container.classList.add('fade-active');
-                
                 setTimeout(() => {
                     progress.style.transition = `width ${SLIDE_DURATION}ms linear`;
                     progress.style.width = '100%';
                 }, 50);
-
             }, 1200); 
         }
 
         function startRotation() {
             if (rotationTimer) clearInterval(rotationTimer);
             updateUI(products[currentIndex]);
-            
             rotationTimer = setInterval(() => {
                 currentIndex = (currentIndex + 1) % products.length;
                 updateUI(products[currentIndex]);
             }, SLIDE_DURATION);
         }
 
-        // Clock
         function updateClock() {
             const now = new Date();
-            const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-            document.getElementById('clock').textContent = timeStr;
+            document.getElementById('clock').textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         }
         setInterval(updateClock, 1000);
         updateClock();
 
-        // Fullscreen Toggle on Click
         window.addEventListener('click', () => {
             if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(e => console.error(e));
+                document.documentElement.requestFullscreen().catch(e => {});
             }
         });
 
