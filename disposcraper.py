@@ -40,7 +40,12 @@ async def scroll_to_load_all(page):
 async def scrape_page_products(page, category_label):
     """Extracts product details from the current page state."""
     products = []
-    cards = await page.query_selector_all('[data-testid="card-outer"]')
+    # Using the outer card selector identified from your HTML
+    cards = await page.query_selector_all('[data-testid="product-card-div"]')
+    if not cards:
+        # Fallback to the generic outer card if the specific div isn't found
+        cards = await page.query_selector_all('[data-testid="card-outer"]')
+        
     print(f"[*] Found {len(cards)} cards in {category_label}. Parsing...")
 
     for card in cards:
@@ -54,25 +59,60 @@ async def scrape_page_products(page, category_label):
             name = (await name_el.inner_text()).strip() if name_el else "Unknown"
 
             # 3. Clean Duplicate Brand Names
-            # If the name already starts with the brand (e.g., Brand is "Black Buddha" and name is "Black Buddha - Energy..."),
-            # just use the name as is. Otherwise, join them nicely.
             if brand and not name.lower().startswith(brand.lower()):
                 full_name = f"{brand} - {name}"
             else:
                 full_name = name
 
-            # 4. Get Price
-            price_el = await card.query_selector('[data-testid*="variant-discount"]') or \
-                       await card.query_selector('[data-testid*="variant-price-original"]')
+            # 4. Get Price (Robust Logic)
+            price = "$0.00"
+            price_found = False
             
-            price_text = await price_el.inner_text() if price_el else "$0.00"
-            price_match = re.search(r"\$\d+\.\d{2}", price_text)
-            price = price_match.group(0) if price_match else price_text
+            # Step A: Check elements with price-related test-ids
+            price_elements = await card.query_selector_all('[data-testid*="price"], [data-testid*="discount"]')
+            
+            for el in price_elements:
+                # Check 1: Content of the element
+                text = (await el.inner_text()).strip()
+                # Check 2: The test-id attribute itself (handles variant-price-45)
+                testid = await el.get_attribute('data-testid') or ""
+                
+                # Combine both to look for a price match
+                combined_source = f"{text} {testid}"
+                
+                # Look for patterns like $45.00 or $45
+                match = re.search(r"\$(\d+\.?\d*)", combined_source)
+                if not match:
+                    # Look for the specific numeric suffix in the test-id if no $ is present
+                    # e.g., variant-price-45 -> matches 45
+                    match = re.search(r"price-(\d+\.?\d*)", testid)
+                
+                if match:
+                    val = match.group(1)
+                    # Standardize to $XX.XX
+                    if "." in val:
+                        parts = val.split(".")
+                        price = f"${parts[0]}.{parts[1][:2].ljust(2, '0')}"
+                    else:
+                        price = f"${val}.00"
+                    
+                    if price != "$0.00":
+                        price_found = True
+                        break
+            
+            # Step B: Broad Fallback - check entire card text for first $ sign
+            if not price_found:
+                full_card_text = await card.inner_text()
+                price_match = re.search(r"\$\d+\.?\d*", full_card_text)
+                if price_match:
+                    price = price_match.group(0)
+                    if "." not in price: price += ".00"
 
             # 5. Get Metadata (THC)
             card_text = await card.inner_text()
-            thc_match = re.search(r"THCa?\s*(\d+\.?\d*%)", card_text)
-            thc = thc_match.group(1) if thc_match else "N/A"
+            # Match THC, THCa, or CBD percentages
+            thc_match = re.search(r"(THCa?|CBD)\s*(\d+\.?\d*%)", card_text, re.IGNORECASE)
+            thc = thc_match.group(2) if thc_match else "N/A"
 
             # 6. Get Image
             img_el = await card.query_selector('img')
@@ -86,7 +126,8 @@ async def scrape_page_products(page, category_label):
                     "category": category_label,
                     "image": img_url
                 })
-        except Exception:
+        except Exception as e:
+            # print(f"Error parsing card: {e}")
             continue
     return products
 
@@ -104,15 +145,15 @@ async def main():
             print(f"\n--- Starting: {category['name']} ---")
             try:
                 await page.goto(category['url'], wait_until="domcontentloaded", timeout=60000)
-                
-                # Handle age gate
                 await handle_age_gate(page)
                 
-                # Wait for content and scroll
-                await page.wait_for_selector('[data-testid="card-outer"]', timeout=20000)
-                await scroll_to_load_all(page)
+                # Check for any of the card identifiers
+                await page.wait_for_function(
+                    "document.querySelector('[data-testid=\"product-card-div\"]') || document.querySelector('[data-testid=\"card-outer\"]')",
+                    timeout=20000
+                )
                 
-                # Scrape
+                await scroll_to_load_all(page)
                 category_products = await scrape_page_products(page, category['name'])
                 all_products.extend(category_products)
                 print(f"[+] Added {len(category_products)} items from {category['name']}")
@@ -120,7 +161,7 @@ async def main():
             except Exception as e:
                 print(f"[!] Error scraping {category['name']}: {e}")
 
-        # Final cleanup and save (Remove duplicates by name)
+        # Final cleanup and save
         unique_products = list({p['name']: p for p in all_products}.values())
         with open(OUTPUT_FILE, "w") as f:
             json.dump(unique_products, f, indent=4)
