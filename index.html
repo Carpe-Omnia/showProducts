@@ -96,10 +96,36 @@
         let products = [];
         let currentIndex = 0;
         let rotationTimer = null;
+        let wakeLock = null;
 
         /**
-         * Fisher-Yates Shuffle Algorithm
+         * KEEP AWAKE LOGIC
+         * Uses the Screen Wake Lock API to prevent the TV from entering sleep/screensaver mode.
          */
+        async function requestWakeLock() {
+            if ('wakeLock' in navigator) {
+                try {
+                    wakeLock = await navigator.wakeLock.request('screen');
+                    console.log('Wake Lock is active!');
+                    
+                    wakeLock.addEventListener('release', () => {
+                        console.log('Wake Lock was released');
+                    });
+                } catch (err) {
+                    console.error(`${err.name}, ${err.message}`);
+                }
+            } else {
+                console.warn('Wake Lock API not supported by this browser.');
+            }
+        }
+
+        // Re-request wake lock if the page becomes visible again (e.g., after switching tabs)
+        document.addEventListener('visibilitychange', async () => {
+            if (wakeLock !== null && document.visibilityState === 'visible') {
+                await requestWakeLock();
+            }
+        });
+
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -109,10 +135,13 @@
         }
 
         async function init() {
+            await requestWakeLock();
             await fetchData();
+            
             if (products.length === 0) {
                 products = [{ name: "Waiting for Data...", price: "$0.00", meta: "Check products.json", category: "SYSTEM" }];
             }
+            
             const loader = document.getElementById('loader');
             if (loader) {
                 loader.style.opacity = '0';
@@ -130,12 +159,10 @@
                 if (!response.ok) throw new Error("File not found");
                 let newData = await response.json();
                 
-                // Shuffle newly fetched data to keep the sign varied
                 newData = shuffleArray(newData);
 
                 if (JSON.stringify(newData) !== JSON.stringify(products)) {
                     products = newData;
-                    // Reset index if current is out of bounds
                     if (currentIndex >= products.length) currentIndex = 0;
                 }
             } catch (err) {
