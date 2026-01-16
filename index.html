@@ -18,13 +18,13 @@
             overflow: hidden;
             margin: 0;
             height: 100vh;
-            cursor: pointer;
         }
         .product-image-container {
             box-shadow: 0 0 80px rgba(16, 185, 129, 0.1);
         }
-        .fade-enter { opacity: 0; transform: translateY(30px) scale(0.98); }
-        .fade-active { opacity: 1; transform: translateY(0) scale(1); transition: all 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
+        /* Smooth transitions for TV hardware */
+        .fade-enter { opacity: 0; transform: translateY(20px); }
+        .fade-active { opacity: 1; transform: translateY(0); transition: all 0.8s ease-out; }
         
         .price-glow {
             text-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
@@ -32,7 +32,6 @@
         .category-badge {
             letter-spacing: 0.3em;
             background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
         }
         .progress-bar {
             height: 4px;
@@ -43,36 +42,36 @@
             width: 0%;
             transition: width linear;
         }
-
-        #p-name {
-            transition: font-size 0.5s ease;
-        }
     </style>
 </head>
 <body class="flex items-center justify-center">
 
+    <!-- Ambient background glows -->
     <div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-emerald-900/20 blur-[150px] rounded-full"></div>
     <div class="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-900/10 blur-[150px] rounded-full"></div>
 
     <div id="app" class="relative w-full h-full flex flex-col items-center justify-center p-16">
         <div id="content-area" class="fade-enter w-full max-w-[1600px] grid grid-cols-12 gap-16 items-center">
+            <!-- Left Side: Product Image -->
             <div class="col-span-5 relative product-image-container rounded-[4rem] overflow-hidden aspect-square bg-white/5 border border-white/10 flex items-center justify-center">
                 <img id="p-image" src="" class="w-full h-full object-contain p-8 hidden" alt="">
                 <div id="p-placeholder" class="w-full h-full flex items-center justify-center text-[15rem] opacity-20">🌿</div>
             </div>
 
+            <!-- Right Side: Product Details -->
             <div class="col-span-7 space-y-8 pl-10">
                 <div class="flex items-center gap-6">
                     <span id="p-category" class="category-badge px-6 py-2 rounded-full text-green-400 font-bold text-2xl uppercase">---</span>
                     <span id="p-meta" class="text-3xl text-slate-400 font-medium">---</span>
                 </div>
-                <h1 id="p-name" class="font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl">---</h1>
+                <h1 id="p-name" class="text-[7rem] font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl">---</h1>
                 <div class="flex items-end gap-8 pt-8">
                     <div id="p-price" class="text-9xl font-black text-green-500 price-glow tracking-tighter">$ --.--</div>
                 </div>
             </div>
         </div>
 
+        <!-- Footer Info -->
         <div class="absolute bottom-16 left-16 right-16 flex justify-between items-end border-t border-white/5 pt-8">
             <div class="space-y-1">
                 <div class="text-slate-500 font-bold tracking-widest text-xl uppercase">GSNG Dispensary</div>
@@ -80,41 +79,132 @@
             </div>
             <div id="clock" class="text-5xl font-light text-slate-300 tabular-nums">00:00 PM</div>
         </div>
+
+        <!-- Progress bar for timing feedback -->
         <div id="progress" class="progress-bar"></div>
     </div>
 
-    <div id="loader" class="fixed inset-0 bg-slate-950 flex flex-col items-center justify-center z-50 transition-opacity duration-1000">
-        <div class="w-24 h-24 border-4 border-green-500/20 border-t-green-500 rounded-full animate-spin mb-8"></div>
-        <p id="loader-text" class="text-slate-400 font-bold tracking-widest uppercase text-center px-4">Fetching Fresh Menu...</p>
+    <!-- Simplified Loader -->
+    <div id="loader" class="fixed inset-0 bg-slate-950 flex flex-col items-center justify-center z-50 transition-opacity duration-500">
+        <div class="w-16 h-16 border-4 border-green-500/20 border-t-green-500 rounded-full animate-spin mb-4"></div>
+        <p class="text-slate-400 font-bold tracking-widest uppercase">Loading Menu...</p>
     </div>
 
     <script>
-        // Use a relative path to avoid CORS issues on some TV browsers
-        const DATA_PATH = 'products.json'; 
-        const SLIDE_DURATION = 12000;    
-        const SYNC_INTERVAL = 60000; 
+        const SLIDE_DURATION = 10000;
+        const SYNC_INTERVAL = 300000; // Sync every 5 mins
         
         let products = [];
         let currentIndex = 0;
         let rotationTimer = null;
-        let wakeLock = null;
 
-        async function requestWakeLock() {
-            // Check for support carefully; some TV browsers crash on accessing 'navigator.wakeLock'
-            if ('wakeLock' in navigator && typeof navigator.wakeLock.request === 'function') {
-                try {
-                    wakeLock = await navigator.wakeLock.request('screen');
-                    console.log('Wake Lock active');
-                } catch (err) {
-                    console.log('Wake lock failed:', err.message);
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        async function fetchData() {
+            try {
+                // Simplified fetch with no extra headers to keep TV browsers happy
+                const response = await fetch('products.json?v=' + Date.now());
+                const data = await response.json();
+                
+                if (data && data.length > 0) {
+                    products = shuffleArray(data);
+                    return true;
                 }
+            } catch (err) {
+                console.error("Data load failed:", err);
+            }
+            return false;
+        }
+
+        function updateUI(item) {
+            if (!item) return;
+            const container = document.getElementById('content-area');
+            const progress = document.getElementById('progress');
+            
+            // Trigger exit animation
+            container.classList.remove('fade-active');
+            progress.style.transition = 'none';
+            progress.style.width = '0%';
+
+            // Short delay for exit to finish
+            setTimeout(() => {
+                document.getElementById('p-name').textContent = item.name;
+                document.getElementById('p-price').textContent = item.price;
+                document.getElementById('p-meta').textContent = item.meta || "";
+                document.getElementById('p-category').textContent = item.category || "Menu Item";
+                document.getElementById('item-counter').textContent = `${currentIndex + 1} / ${products.length}`;
+                
+                const img = document.getElementById('p-image');
+                const placeholder = document.getElementById('p-placeholder');
+
+                if (item.image) {
+                    img.src = item.image;
+                    img.onload = () => {
+                        img.classList.remove('hidden');
+                        placeholder.classList.add('hidden');
+                    };
+                    img.onerror = () => {
+                        img.classList.add('hidden');
+                        placeholder.classList.remove('hidden');
+                    };
+                } else {
+                    img.classList.add('hidden');
+                    placeholder.classList.remove('hidden');
+                }
+
+                // Trigger enter animation
+                container.classList.add('fade-active');
+                
+                // Start progress bar
+                setTimeout(() => {
+                    progress.style.transition = `width ${SLIDE_DURATION}ms linear`;
+                    progress.style.width = '100%';
+                }, 50);
+            }, 800);
+        }
+
+        function startRotation() {
+            if (rotationTimer) clearInterval(rotationTimer);
+            updateUI(products[currentIndex]);
+            
+            rotationTimer = setInterval(() => {
+                currentIndex = (currentIndex + 1) % products.length;
+                updateUI(products[currentIndex]);
+            }, SLIDE_DURATION);
+        }
+
+        async function init() {
+            const success = await fetchData();
+            
+            // If fetch worked, hide loader and start
+            if (success) {
+                document.getElementById('loader').style.opacity = '0';
+                setTimeout(() => document.getElementById('loader').remove(), 500);
+                startRotation();
+                // Periodic background refresh
+                setInterval(fetchData, SYNC_INTERVAL);
+            } else {
+                // Handle retry for flaky TV connections
+                setTimeout(init, 5000);
             }
         }
 
-        document.addEventListener('visibilitychange', async () => {
-            if (wakeLock !== null && document.visibilityState === 'visible') {
-                await requestWakeLock();
-            }
-        });
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
 
-        function shuffleArray(array) {
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Start when ready
+        window.addEventListener('load', init);
+    </script>
+</body>
+</html>
