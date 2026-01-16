@@ -85,10 +85,11 @@
 
     <div id="loader" class="fixed inset-0 bg-slate-950 flex flex-col items-center justify-center z-50 transition-opacity duration-1000">
         <div class="w-24 h-24 border-4 border-green-500/20 border-t-green-500 rounded-full animate-spin mb-8"></div>
-        <p class="text-slate-400 font-bold tracking-widest uppercase">Fetching Fresh Menu...</p>
+        <p id="loader-text" class="text-slate-400 font-bold tracking-widest uppercase text-center px-4">Fetching Fresh Menu...</p>
     </div>
 
     <script>
+        // Use a relative path to avoid CORS issues on some TV browsers
         const DATA_PATH = 'products.json'; 
         const SLIDE_DURATION = 12000;    
         const SYNC_INTERVAL = 60000; 
@@ -98,28 +99,18 @@
         let rotationTimer = null;
         let wakeLock = null;
 
-        /**
-         * KEEP AWAKE LOGIC
-         * Uses the Screen Wake Lock API to prevent the TV from entering sleep/screensaver mode.
-         */
         async function requestWakeLock() {
-            if ('wakeLock' in navigator) {
+            // Check for support carefully; some TV browsers crash on accessing 'navigator.wakeLock'
+            if ('wakeLock' in navigator && typeof navigator.wakeLock.request === 'function') {
                 try {
                     wakeLock = await navigator.wakeLock.request('screen');
-                    console.log('Wake Lock is active!');
-                    
-                    wakeLock.addEventListener('release', () => {
-                        console.log('Wake Lock was released');
-                    });
+                    console.log('Wake Lock active');
                 } catch (err) {
-                    console.error(`${err.name}, ${err.message}`);
+                    console.log('Wake lock failed:', err.message);
                 }
-            } else {
-                console.warn('Wake Lock API not supported by this browser.');
             }
         }
 
-        // Re-request wake lock if the page becomes visible again (e.g., after switching tabs)
         document.addEventListener('visibilitychange', async () => {
             if (wakeLock !== null && document.visibilityState === 'visible') {
                 await requestWakeLock();
@@ -127,125 +118,3 @@
         });
 
         function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
-        }
-
-        async function init() {
-            await requestWakeLock();
-            await fetchData();
-            
-            if (products.length === 0) {
-                products = [{ name: "Waiting for Data...", price: "$0.00", meta: "Check products.json", category: "SYSTEM" }];
-            }
-            
-            const loader = document.getElementById('loader');
-            if (loader) {
-                loader.style.opacity = '0';
-                setTimeout(() => loader.remove(), 1000);
-            }
-            startRotation();
-            setInterval(fetchData, SYNC_INTERVAL);
-        }
-
-        async function fetchData() {
-            try {
-                const isRemote = DATA_PATH.startsWith('http');
-                const url = isRemote ? `${DATA_PATH}?t=${Date.now()}` : DATA_PATH;
-                const response = await fetch(url);
-                if (!response.ok) throw new Error("File not found");
-                let newData = await response.json();
-                
-                newData = shuffleArray(newData);
-
-                if (JSON.stringify(newData) !== JSON.stringify(products)) {
-                    products = newData;
-                    if (currentIndex >= products.length) currentIndex = 0;
-                }
-            } catch (err) {
-                console.warn("Fetch failed:", err.message);
-            }
-        }
-
-        function getDynamicFontSizeClass(text) {
-            const len = text.length;
-            if (len > 80) return 'text-4xl';
-            if (len > 60) return 'text-5xl';
-            if (len > 40) return 'text-6xl';
-            if (len > 25) return 'text-7xl';
-            return 'text-[7rem]';
-        }
-
-        function updateUI(item) {
-            if (!item) return;
-            const container = document.getElementById('content-area');
-            const progress = document.getElementById('progress');
-            const nameEl = document.getElementById('p-name');
-            
-            container.classList.remove('fade-active');
-            progress.style.transition = 'none';
-            progress.style.width = '0%';
-
-            setTimeout(() => {
-                nameEl.className = `font-black leading-[1.1] tracking-tight text-white drop-shadow-2xl ${getDynamicFontSizeClass(item.name)}`;
-                nameEl.textContent = item.name;
-
-                document.getElementById('p-price').textContent = item.price;
-                document.getElementById('p-meta').textContent = item.meta || "N/A";
-                document.getElementById('p-category').textContent = item.category || "MENU";
-                document.getElementById('item-counter').textContent = `${String(currentIndex + 1).padStart(2, '0')} / ${products.length}`;
-                
-                const img = document.getElementById('p-image');
-                const placeholder = document.getElementById('p-placeholder');
-                img.classList.add('hidden');
-                placeholder.classList.add('hidden');
-
-                if (item.image && item.image.startsWith('http')) {
-                    img.src = item.image;
-                    img.onload = () => img.classList.remove('hidden');
-                    img.onerror = () => {
-                        placeholder.classList.remove('hidden');
-                        placeholder.textContent = '🌿';
-                    };
-                } else {
-                    placeholder.classList.remove('hidden');
-                    placeholder.textContent = '🌿';
-                }
-
-                container.classList.add('fade-active');
-                setTimeout(() => {
-                    progress.style.transition = `width ${SLIDE_DURATION}ms linear`;
-                    progress.style.width = '100%';
-                }, 50);
-            }, 1200); 
-        }
-
-        function startRotation() {
-            if (rotationTimer) clearInterval(rotationTimer);
-            updateUI(products[currentIndex]);
-            rotationTimer = setInterval(() => {
-                currentIndex = (currentIndex + 1) % products.length;
-                updateUI(products[currentIndex]);
-            }, SLIDE_DURATION);
-        }
-
-        function updateClock() {
-            const now = new Date();
-            document.getElementById('clock').textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        }
-        setInterval(updateClock, 1000);
-        updateClock();
-
-        window.addEventListener('click', () => {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(e => {});
-            }
-        });
-
-        window.addEventListener('DOMContentLoaded', init);
-    </script>
-</body>
-</html>
