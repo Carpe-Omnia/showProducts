@@ -16,15 +16,23 @@ OUTPUT_FILE = "products.json"
 BASE_URL = "https://gsngdispensary.com"
 
 async def handle_age_gate(page):
+    """Detects and clicks the specific 'Yes' button on the age gate."""
+    print("[*] Checking for age verification gate...")
     try:
+        # Use a more specific selector and wait for it to be clickable
         yes_button = page.locator('button.age-gate__submit--yes[data-submit="yes"]')
         if await yes_button.is_visible(timeout=5000):
+            print("[!] Age gate detected. Clicking 'Yes'...")
             await yes_button.click()
             await page.wait_for_timeout(2000)
+            return True
     except Exception:
         pass
+    return False
 
 async def scroll_to_load_all(page):
+    """Simulates scrolling to trigger infinite loading until no more content appears."""
+    print("[*] Scrolling to load all items...")
     last_height = await page.evaluate("document.body.scrollHeight")
     while True:
         await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -35,42 +43,86 @@ async def scroll_to_load_all(page):
         last_height = new_height
 
 async def scrape_page_products(page, category_label):
+    """Extracts product details from the current page state, including URLs for QR codes."""
     products = []
+    # Try both known card selectors
     cards = await page.query_selector_all('[data-testid="product-card-div"]')
     if not cards:
         cards = await page.query_selector_all('[data-testid="card-outer"]')
         
+    print(f"[*] Found {len(cards)} cards in {category_label}. Parsing...")
+
     for card in cards:
         try:
-            # 1. Get Product Link (Crucial for QR codes)
-            link_el = await card.query_selector('a')
+            # 1. Get Product URL (Crucial for QR code embedding)
+            # Find the primary link inside the card
+            link_el = await card.query_selector('a[href*="/shop/products/"]')
+            if not link_el:
+                link_el = await card.query_selector('a')
+            
             relative_url = await link_el.get_attribute('href') if link_el else ""
-            full_url = f"{BASE_URL}{relative_url}" if relative_url.startswith('/') else relative_url
+            
+            # Ensure absolute URL
+            if relative_url.startswith('/'):
+                full_url = f"{BASE_URL}{relative_url}"
+            elif relative_url.startswith('http'):
+                full_url = relative_url
+            else:
+                full_url = f"{BASE_URL}/shop" # Fallback
 
-            # 2. Get Brand & Name
+            # 2. Get Brand Name
             brand_el = await card.query_selector('[data-testid*="product-card-brand-name"]')
             brand = (await brand_el.inner_text()).strip() if brand_el else ""
+
+            # 3. Get Product Name
             name_el = await card.query_selector('[data-testid*="product-name"]')
             name = (await name_el.inner_text()).strip() if name_el else "Unknown"
-            full_name = f"{brand} - {name}" if brand and not name.lower().startswith(brand.lower()) else name
 
-            # 3. Get Price
+            # 4. Clean Duplicate Brand Names
+            if brand and not name.lower().startswith(brand.lower()):
+                full_name = f"{brand} - {name}"
+            else:
+                full_name = name
+
+            # 5. Get Price (Sale-Aware Logic)
             found_prices = []
             price_elements = await card.query_selector_all('[data-testid*="price"], [data-testid*="discount"]')
+            
             for el in price_elements:
                 text = (await el.inner_text()).strip()
-                matches = re.findall(r"\$(\d+\.?\d*)", text)
+                testid = await el.get_attribute('data-testid') or ""
+                combined = f"{text} {testid}"
+                matches = re.findall(r"\$(\d+\.?\d*)", combined)
+                
+                if not matches:
+                    attr_match = re.search(r"price(?:-original)?-(\d+\.?\d*)", testid)
+                    if attr_match:
+                        matches = [attr_match.group(1)]
+
                 for val in matches:
-                    found_prices.append(float(val))
+                    try:
+                        found_prices.append(float(val))
+                    except ValueError:
+                        continue
 
-            price = f"${min(found_prices):,.2f}" if found_prices else "$0.00"
+            if found_prices:
+                best_price = min(found_prices)
+                price = f"${best_price:,.2f}"
+            else:
+                full_text = await card.inner_text()
+                all_text_prices = re.findall(r"\$(\d+\.?\d*)", full_text)
+                if all_text_prices:
+                    best_price = min([float(p) for p in all_text_prices])
+                    price = f"${best_price:,.2f}"
+                else:
+                    price = "$0.00"
 
-            # 4. Get Metadata
+            # 6. Get Metadata (THC/Potency)
             card_text = await card.inner_text()
             meta_match = re.search(r"((?:THCa?|CBD|Total THC)\s*\d+\.?\d*%|\d+\s*mg)", card_text, re.IGNORECASE)
             meta_val = meta_match.group(0) if meta_match else "N/A"
 
-            # 5. Get Image
+            # 7. Get Image
             img_el = await card.query_selector('img')
             img_url = await img_el.get_attribute('src') if img_el else ""
 
@@ -81,7 +133,7 @@ async def scrape_page_products(page, category_label):
                     "meta": meta_val,
                     "category": category_label,
                     "image": img_url,
-                    "url": full_url # Saved for the QR code
+                    "url": full_url # Saved for QR generation in index.html
                 })
         except Exception:
             continue
@@ -90,28 +142,41 @@ async def scrape_page_products(page, category_label):
 async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context()
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+        )
         page = await context.new_page()
+        
         all_products = []
 
         for category in CATEGORIES:
+            print(f"\n--- Starting: {category['name']} ---")
             try:
                 await page.goto(category['url'], wait_until="domcontentloaded", timeout=60000)
                 await handle_age_gate(page)
-                await page.wait_for_timeout(3000)
+                
+                # Wait for at least one card to appear
+                await page.wait_for_function(
+                    "document.querySelector('[data-testid=\"product-card-div\"]') || document.querySelector('[data-testid=\"card-outer\"]')",
+                    timeout=20000
+                )
+                
                 await scroll_to_load_all(page)
                 category_products = await scrape_page_products(page, category['name'])
                 all_products.extend(category_products)
+                print(f"[+] Added {len(category_products)} items from {category['name']}")
+                
             except Exception as e:
-                print(f"Error scraping {category['name']}: {e}")
+                print(f"[!] Error scraping {category['name']}: {e}")
 
+        # Final cleanup: Remove duplicates and shuffle
         unique_products = list({p['name']: p for p in all_products}.values())
         random.shuffle(unique_products)
         
         with open(OUTPUT_FILE, "w") as f:
             json.dump(unique_products, f, indent=4)
         
-        print(f"Successfully scraped {len(unique_products)} products with URLs.")
+        print(f"\n[!!!] Final Success: {len(unique_products)} total unique products saved to {OUTPUT_FILE}")
         await browser.close()
 
 if __name__ == "__main__":
