@@ -1,1003 +1,27 @@
 [
     {
-        "name": "Fernway -[ Honeycrisp ]- 0.3g (T)",
-        "price": "$20.80",
-        "meta": "THC 83.55%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4776c889-bc78-4cff-8d84-47ea7687843e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/honeycrisp-03g-t"
-    },
-    {
-        "name": "Camino Gummies -Wild Berry",
-        "price": "$22.75",
-        "meta": "THC 1.28%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_136fc5d5-c797-40f7-bacd-bcc7eab02b04?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-wild-berry"
-    },
-    {
-        "name": "Simply Herb-Mandarin Z-Flower-3.5g",
-        "price": "$26.00",
-        "meta": "THCa 24.07%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3bfd3eb1-ac6d-44e5-8bfc-a0be0814eadd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-mandarin-z-flower-35g"
-    },
-    {
-        "name": "Grassroots Tropicana Banana 3.5g- Hybrid",
-        "price": "$32.50",
-        "meta": "THCa 30.87%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_637fc9b3-d92f-49da-a375-f4f5096a9344?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-prepack-whole-flower-35g-hybridtropicana-banana"
-    },
-    {
-        "name": "Kind Tree - Legend | Pre-Rolls | THCa and Terpene Infused Multipack | Citrus Berry Marmalade | 5pk/2.5g",
-        "price": "$26.00",
-        "meta": "THCa 43.31%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_83448c1a-8ff1-4e27-84e0-a7f3709e3b23?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/legend-pre-rolls-thca-and-terpene-infused-multipack-citrus-berry-marmalade-5pk25g"
-    },
-    {
-        "name": "Kind Tree - Legend | Pre-Rolls | THCa and Terpene Infused Multipack | Cherry Pie | 5pk/2.5g",
-        "price": "$26.00",
-        "meta": "THCa 41.88%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_83448c1a-8ff1-4e27-84e0-a7f3709e3b23?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/legend-pre-rolls-thca-and-terpene-infused-multipack-cherry-pie-5pk25g"
-    },
-    {
-        "name": "Legend | Vapes | Live Terpene Disposable | Gelato Z | 1g",
-        "price": "$39.00",
-        "meta": "THC 90.68%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_78fa9ae6-1561-445d-b127-08ec1e3dad39?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-gelato-z-1g"
-    },
-    {
-        "name": "Cookies | Vapes | CDT 3-in-1 Disposables | Berniehana Butter + Tequila Sunrise | 2g",
-        "price": "$78.00",
-        "meta": "THC 85.55%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_76071f79-ecda-4b77-9f2c-b71e6546adce?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cdt-3-in-1-disposables-berniehana-butter-tequila-sunrise-2g"
-    },
-    {
-        "name": "Find- Agent Z Mixed Buds 3.5g- Sativa",
-        "price": "$26.00",
-        "meta": "THCa 25.96%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8fd4f300-ff32-46ba-bd2d-4b5aa6a34660?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-sativaagent-z"
-    },
-    {
-        "name": "Kind Tree | Concentrates | Live Resin Badder | Sour Diesel | 1g",
-        "price": "$42.25",
-        "meta": "THCa 75.06%",
-        "category": "CONCENTRATES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_279cedce-cb7a-4eac-a5cd-02b0f396959a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-concentrates-live-resin-badder-sour-diesel-1g"
-    },
-    {
-        "name": "Craft Kings - Indica Infused - Pre Roll - 1g",
-        "price": "$15.60",
-        "meta": "THC 34.05%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_db2707cd-b8b8-4e8a-935f-84858d55da80?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-indica-infused-pre-roll-1g"
-    },
-    {
-        "name": "Camino Gummies- Sparkling Pear 2 MG THC| 6 MG CBD",
-        "price": "$22.75",
-        "meta": "2 MG",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f02bee2d-85da-4212-8773-efeeb72364c9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-sparkling-pear"
-    },
-    {
-        "name": "Delight- Simmer Down PR .5G",
-        "price": "$6.50",
-        "meta": "THCa 26.14%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_38ae37da-4a97-4716-8e23-0d048c4bd433?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-simmer-down-pr-5g"
-    },
-    {
-        "name": "Ozone-Golden Lemons-Pre Rolls 5 Pack-2.5g",
-        "price": "$16.25",
-        "meta": "THCa 30.19%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c1e2af45-c13c-48d1-9dde-05fd6a9cd193?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-golden-lemons-pre-rolls-5-pack-25g"
-    },
-    {
-        "name": "1906-Genius-Tablets 30 Pack-75mg",
-        "price": "$19.50",
-        "meta": "75mg",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_bc5cd6e7-4e74-443c-ac8e-f03601da9716?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/1906/1906-genius-tablets-30-pack-75mg"
-    },
-    {
-        "name": "Simply Herb-Banana Daddy-Flower-3.5g",
-        "price": "$26.00",
-        "meta": "THCa 23.78%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_a7d75cd2-124d-4167-b581-07f2a7b48518?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-banana-daddy-flower-35g"
-    },
-    {
-        "name": "Camino Gummies - Camino Sours -Strawberry Sunset",
-        "price": "$22.75",
-        "meta": "THC 2.50%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_fa33c4d4-1f5f-4d09-a11d-67215fdffb8a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/s-fg-strawberry-sunset-1"
-    },
-    {
-        "name": "Ozone-Huckleberry Haze-Disposable Distillate Cart-1.00g",
-        "price": "$35.75",
-        "meta": "THC 86.37%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4969b719-1002-4dae-95b6-4b182665d702?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-huckleberry-haze-disposable-distillate-cart-100g"
-    },
-    {
-        "name": "High Wired-Butterstuff #6-Infused Pre Rolls Single-1.0g",
-        "price": "$19.50",
-        "meta": "THCa 53.46%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ee5e73ae-0bd7-48db-8599-6f2261445a2f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/high-wired/high-wired-butterstuff-6-infused-pre-rolls-single-10g"
-    },
-    {
-        "name": "Delight- Take 5 3.5G",
-        "price": "$29.25",
-        "meta": "THCa 28.52%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_56a0e8fd-d9ee-4ce8-aee0-e4dd5b00122c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-take-5-35g"
-    },
-    {
-        "name": "Simply Herb-Mr. Cheezle-Flower-3.5g",
-        "price": "$26.00",
-        "meta": "THCa 26.21%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6e745f75-33f2-45b2-9501-71577b81e4b8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-mr-cheezle-flower-35g"
-    },
-    {
-        "name": "Niche - [Josh D] OG Kiss | 3.5",
-        "price": "$60.00",
-        "meta": "THCa 31.43%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_edfeae31-87b7-4a7e-909b-ef778371a421?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/niche/josh-d-og-kiss-35"
-    },
-    {
-        "name": "Ozone-Donny Burger-Disposable Distillate Cart-1.00g",
-        "price": "$35.75",
-        "meta": "THC 89.50%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b59574ad-7c04-4013-aac1-0a2a32661509?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-donny-burger-disposable-distillate-cart-100g"
-    },
-    {
-        "name": "Camino Gummies - Camino Sours -Orchard Peach 10MG THC| 10MG CBD",
-        "price": "$22.75",
-        "meta": "10MG",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ae8b9c7a-e95b-4992-9284-0c9422bdea5a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/s-fg-orchard-peach"
-    },
-    {
-        "name": "Select Classic Bites| Blueberry |10 Pack 100mg- Indica",
-        "price": "$16.25",
-        "meta": "100mg",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8c83c8eb-1c50-4aad-8c39-e6b3032a1c3e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-classic-bites-20-10-pack-100mg-indicablueberry"
-    },
-    {
-        "name": "Delight- Kush Mints PR 1G",
-        "price": "$9.75",
-        "meta": "THCa 30.26%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_a3feae31-f1ba-41f3-a9f2-38651780113d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-kush-mints-pr-1g"
-    },
-    {
-        "name": "Find- Muffin Grease Mixed Buds 3.5g- Hybrid",
-        "price": "$26.00",
-        "meta": "THCa 26.16%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1caa4d3e-acff-44b7-b493-9dfcbfaef147?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-hybridmuffin-grease"
-    },
-    {
-        "name": "Legend | Vapes | Live Terpene Disposable | Tropicana Cookies | 1g",
-        "price": "$39.00",
-        "meta": "THC 90.67%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3cdace22-df2a-40ac-94e2-f94234d61cf8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-tropicana-cookies-1g"
-    },
-    {
-        "name": "Legend | Vapes | Live Terpene Disposable | Pineapple Skunk | 1g",
-        "price": "$39.00",
-        "meta": "THC 89.27%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b8b6127e-8a5f-4ad6-a051-b086232eac3b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-pineapple-skunk-1g"
-    },
-    {
-        "name": "Niche | Spritzer | 3.5g",
-        "price": "$39.00",
-        "meta": "THCa 34.98%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_09d797cc-d181-4c7c-b593-936f501706a3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/niche/spritzer-35g"
-    },
-    {
-        "name": "Find- Cheddar Cheeze Mixed Buds 28g- Indica",
-        "price": "$117.00",
-        "meta": "THCa 33.30%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6cac8bd0-8a6f-471c-907f-b7f371004827?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-28g-indicacheddar-cheeze"
-    },
-    {
-        "name": "Fernway -Berry Haze -1.0g(510)",
-        "price": "$39.00",
-        "meta": "THC 82.40%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_16e4d286-f263-4bb5-b22a-7a6c12f5c5a8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/berry-haze-10g510"
-    },
-    {
-        "name": "Miss Grass-Quiet Times Spark-Pre Rolls Single-0.40g",
-        "price": "$7.80",
-        "meta": "THCa 27.50%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_13667c8c-852f-4bfd-9d92-dad27bc090a8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-quiet-times-spark-pre-rolls-single-040g"
-    },
-    {
-        "name": "Anthem| Indica Blend |Preroll 10 Pack 3.5g",
-        "price": "$26.00",
-        "meta": "THCa 25.38%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d3975de0-e5e6-41ca-9845-6245e7815a57?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-preroll-10-pack-35g-indicaindica-blend"
-    },
-    {
-        "name": "Simply Herb-Pink Lemonade Blast-Disposable Distillate Cart-1.0g",
-        "price": "$35.75",
-        "meta": "THC 87.29%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_34b8ed63-c892-4ae6-bbe2-6998d758732d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-pink-lemonade-blast-disposable-distillate-cart-10g"
-    },
-    {
-        "name": "Delight- Kush Mintz PR 0.5G",
-        "price": "$6.50",
-        "meta": "THCa 30.26%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f61bd108-dec6-4a2e-b8e9-cc5440039846?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-kush-mintz-pr-05g"
-    },
-    {
-        "name": "Lost Farm - Thorny Berry Live Resin",
-        "price": "$29.25",
-        "meta": "THC 2.65%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_386287bf-c5b9-40a2-a679-423b4c7b6284?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/lost-farm/lf-fg-thorny-berry"
-    },
-    {
-        "name": "Sneaky Pete's - Trap Candy Infused Preroll 1g",
-        "price": "$18.20",
-        "meta": "THC 36.22%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_382ac01a-03a6-42e5-85e1-33b6bd61c759?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/sneaky-petes/sneaky-petes-trap-candy-infused-preroll-1g"
-    },
-    {
-        "name": "Find Preroll 1g- Indica:Berry Skunkset",
-        "price": "$8.45",
-        "meta": "THCa 20.29%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9813c147-ca0e-4bdb-b56c-fbf3df0c5bcd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-preroll-1g-indicaberry-skunkset"
-    },
-    {
-        "name": "Grassroots Pillow Mints 3.5g- Indica",
-        "price": "$32.50",
-        "meta": "THCa 34.57%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e0aa2402-1e5d-4075-bfd6-dc2fbd5162a2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-prepack-whole-flower-35g-indicapillow-mints"
-    },
-    {
-        "name": "Fernway-[ Red Headed Strangers ]- 1.0g (510)",
-        "price": "$39.00",
-        "meta": "THC 76.90%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_dd49db0f-04e3-4f5c-b891-47258ca4dcee?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/red-headed-strangers-10g-510"
-    },
-    {
-        "name": "Fernway - Space Queen - 1.0g (510)",
-        "price": "$39.00",
-        "meta": "THC 78.78%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_75860ebf-c605-482f-8af7-fb01fa28e8e9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/fernway-space-queen-10g-510"
-    },
-    {
-        "name": "Simply Herb-Fruit Lagoon-Disposable Distillate Cart-1.0g",
-        "price": "$35.75",
-        "meta": "THC 88.68%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_63a49538-6dc4-424f-8509-f10bb01ef7a5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-fruit-lagoon-disposable-distillate-cart-10g"
-    },
-    {
-        "name": "Cookies | Vapes | CDT 3-in-1 Disposables | LPC 75 + Hawaiian Rain | 2g",
-        "price": "$78.00",
-        "meta": "THC 90.53%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6fae4ceb-fd0c-4932-94eb-76831af1eda3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cdt-3-in-1-disposables-lpc-75-hawaiian-rain-2g"
-    },
-    {
-        "name": "Goodies - [Goodies] Candy | Pre-Roll Hybrid (.5g - 7 Pack)",
-        "price": "$29.25",
-        "meta": "THCa 38.91%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2360d3a8-d269-4dbe-ac3b-d289f6db83a7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/goodies/goodies-candy-pre-roll-5g-7-pack-1"
-    },
-    {
-        "name": "Fernway -[White Widow ]- 1.0g (510)",
-        "price": "$39.00",
-        "meta": "THC 84%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_af556de9-a374-4566-af48-a1dee7b7ef6e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/fernway-white-widow-10g-510"
-    },
-    {
-        "name": "Delight- Bomb St. Runtz 3.5",
-        "price": "$29.25",
-        "meta": "THCa 36.32%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_cc9df91d-753b-49ff-b41f-62b965d63941?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-bomb-st-runtz-35"
-    },
-    {
-        "name": "KAI- Gypsy Soap 3.5G",
-        "price": "$29.25",
-        "meta": "THCa 31.03%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c48ee7a4-1a78-4482-8778-60debf51ea98?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-gypsy-soap-35g"
-    },
-    {
-        "name": "Kind Tree | Pre-Rolls | Multipack | Tea Time #10 | 5pk/1.75g",
-        "price": "$19.50",
-        "meta": "THCa 26.29%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8f6ed7cf-4042-46fb-9285-01bec35466ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-pre-rolls-multipack-tea-time-10-5pk175g"
-    },
-    {
-        "name": "Niche |Sinz | Pre-Roll (.5g - 2 Pack)",
-        "price": "$13.00",
-        "meta": "THCa 28.45%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b8f57d2a-a928-44a3-bce5-1388c7951eeb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/niche/sinz-pre-roll-5g-2-pack"
-    },
-    {
-        "name": "Select Essentials| Unicorn Piss |Briq Disposable 2g -Hybrid",
-        "price": "$52.00",
-        "meta": "THC 83.51%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_fa9ba29d-0be3-4924-838e-1e37d6ad517b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-hybridunicorn-piss"
-    },
-    {
-        "name": "Fernway- Mandarin Orange - 1.0g (510)",
-        "price": "$39.00",
-        "meta": "THC 80.96%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_200505e3-c6f1-43c2-8077-215f57eeb36b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/mandarin-orange-10g-510"
-    },
-    {
-        "name": "Legend | Vapes | Live Terpene Disposable | OG Kush | 1g",
-        "price": "$39.00",
-        "meta": "THC 90.71%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3f474616-40fc-493a-9de8-ccf5497c4e2f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-og-kush-1g"
-    },
-    {
-        "name": "Simply Herb-Happy Hour #21-Flower-3.5g",
-        "price": "$26.00",
-        "meta": "THCa 27.14%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_be690195-9bc2-4ff0-b96b-ba77480f2c8b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-happy-hour-21-flower-35g"
-    },
-    {
-        "name": "Grassroots| Country Cookies | RSO Syringe 1.0g- Hybrid",
-        "price": "$24.05",
-        "meta": "THC 72.71%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3af17274-7c42-41ef-b2e1-2ea531b9698e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-rso-syringe-10g-hybridcountry-cookies"
-    },
-    {
-        "name": "Sneaky Pete's - Cat Nap Infused Preroll 1g",
-        "price": "$18.20",
-        "meta": "THC 35.80%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5ad1b9fa-cc5a-44a0-8b05-2edeada70c9d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/sneaky-petes/sneaky-petes-cat-nap-infused-preroll-1g"
-    },
-    {
-        "name": "Camino Gummies- Sleep Midnight Blueberry 1MG CBN| 5MG THC",
-        "price": "$22.75",
-        "meta": "1MG",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9d70093e-12f7-4f38-83d1-a9da394b7936?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-midnight-blueberry"
-    },
-    {
-        "name": "Goodies - [Goodies] Fruit | Pre-Roll (.5g - 7 Pack)",
-        "price": "$29.25",
-        "meta": "THCa 35.54%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_86f917bf-0d3a-4b01-ac8d-27ca7acaf17e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/goodies/goodies-fruit-pre-roll-5g-7-pack-1"
-    },
-    {
-        "name": "Kind Tree | Pre-Rolls | Multipack | Glitter Bomb | 2pk/1.0g",
-        "price": "$19.50",
-        "meta": "THCa 21.67%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_878e6799-43cd-4784-8ffb-05493e2c2ef2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-pre-rolls-multipack-glitter-bomb-2pk10g"
-    },
-    {
-        "name": "Select Essentials| Maui Wowie | Briq Disposable 2g-Sativa",
-        "price": "$52.00",
-        "meta": "THC 78.72%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2c6cc126-dd20-4232-a6f6-e88f81698bc9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-sativamaui-wowie"
-    },
-    {
-        "name": "Ozone-Acapulco Gold-Disposable Distillate Cart-1.00g",
-        "price": "$35.75",
-        "meta": "THC 89.39%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2c1ea6ce-77bf-41e9-8172-5092fa3500c1?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-acapulco-gold-disposable-distillate-cart-100g"
-    },
-    {
-        "name": "Camino Gummies - Camino Sours -Raspberry Lemonade",
-        "price": "$22.75",
-        "meta": "THC 2.67%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_171b0003-77b0-42b0-a97e-6bd93aeec3de?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/s-fg-raspberry-lemonade"
-    },
-    {
-        "name": "Anthem BOLD| King Louis XIII |Infused Preroll Glass Tip 1g- Indica",
-        "price": "$16.25",
-        "meta": "THCa 48.83%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8aaa8b17-64d2-4960-9869-6551e3bca8eb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-glass-tip-1g-indicaking-louis-xiii"
-    },
-    {
-        "name": "Ozone-Banana Daddy-Pre Rolls Single-1.0g",
-        "price": "$6.50",
-        "meta": "THCa 28.81%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9eefeb22-a605-45c8-96b0-dfee1ee62309?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-banana-daddy-pre-rolls-single-10g"
-    },
-    {
-        "name": "Goodies - [Goodies] Gas | Pre-Roll Hybrid (.5g - 7 Pack)",
-        "price": "$29.25",
-        "meta": "THCa 39.82%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_eaee59cd-5c0a-4359-9fc4-2c040d9e61e8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/goodies/goodies-gas-pre-roll-5g-7-pack-3"
-    },
-    {
-        "name": "Kind Tree | Pre-Rolls | Diamond Infused Multipack | Dirty Taxi | 2pk/1g",
-        "price": "$19.50",
-        "meta": "THCa 41.81%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f8b0aea7-0e2a-47e4-aa70-608497643875?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-pre-rolls-diamond-infused-multipack-dirty-taxi-2pk1g"
-    },
-    {
-        "name": "1906-Sleep-Tablets 20 Pack-100mg",
-        "price": "$19.50",
-        "meta": "100mg",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_036e490b-7daa-4444-89f5-9f3ab6f13efd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/1906/1906-sleep-tablets-20-pack-100mg"
-    },
-    {
-        "name": "Kind Tree | Concentrates | Live Resin Badder | Mr. Teeny | 1g",
-        "price": "$32.50",
-        "meta": "THCa 67.92%",
-        "category": "CONCENTRATES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_279cedce-cb7a-4eac-a5cd-02b0f396959a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-concentrates-live-resin-badder-mr-teeny-1g"
-    },
-    {
-        "name": "Legend | Vapes | Live Terpene Disposable | Pink Diesel | 1g",
-        "price": "$39.00",
-        "meta": "THC 90.49%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_509c1d0e-3757-4ec8-873f-621002c9ad44?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-pink-diesel-1g"
-    },
-    {
-        "name": "KAI- Peach Slushi PR 0.5G",
-        "price": "$6.50",
-        "meta": "THCa 22.95%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_a8e011ae-6ce1-4f8a-8cc2-3bafdebb807e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-peach-slushi-pr-05g"
-    },
-    {
-        "name": "Fernway - Space Queen - 1.0g (T)",
-        "price": "$42.25",
-        "meta": "THC 81.41%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4441d61b-1f2d-4c5b-b350-a43f46a034f4?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/fernway-space-queen-10g-t"
-    },
-    {
-        "name": "Camino Gummies- Watermelon Lemonade",
-        "price": "$22.75",
-        "meta": "THC 1.40%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_fb45d9e7-ac99-4f0c-be4e-43e1204bbffc?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-watermelon-lemonade"
-    },
-    {
-        "name": "Camino Gummies - Camino Sours -Tropical Burst 10MG THC| 5MG THCV",
-        "price": "$22.75",
-        "meta": "10MG",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d83b88c4-16c3-4b0a-a398-c51594d282eb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/s-fg-tropical-burst"
-    },
-    {
-        "name": "Camino Gummies - Caminos Gummies- Pineapple Habanero",
-        "price": "$22.75",
-        "meta": "THC 1.55%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d8a347ef-684e-47cc-a96a-d2ee42f451ff?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-pineapple-habanero"
-    },
-    {
-        "name": "Select Essentials| Blue Dream |Briq Disposable 2g-Sativa",
-        "price": "$52.00",
-        "meta": "THC 85.01%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_21b1d303-6c42-4cfd-887d-d20af54c591a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-sativablue-dream"
-    },
-    {
-        "name": "Miss Grass - FAST TIMES - SOLVENTLESS INFUSED - 1.0G PRE-ROLL",
-        "price": "$19.50",
-        "meta": "THCa 47.07%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_eb6d135c-4f1f-4622-9886-cc32076746c6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-fast-times-solventless-infused-10g-pre-roll"
-    },
-    {
-        "name": "Sneaky Pete's Razzle Dazzle - Rainbow Guava Kief 2g",
-        "price": "$38.00",
-        "meta": "THCa 67.21%",
-        "category": "CONCENTRATES",
-        "image": "https://dispense-images.imgix.net/default-concentrate.png?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/none/sneaky-petes-razzle-dazzle-rainbow-guava-kief-2g"
-    },
-    {
-        "name": "Lost Farm - Raspberry Live Resin",
-        "price": "$29.25",
-        "meta": "THC 2.34%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_39050e99-0b86-4264-8693-48abd473768d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/lost-farm/lf-fg-raspberry"
-    },
-    {
-        "name": "Anthem BOLD| King Louis XIII |Infused Preroll Glass Tip 5 Pack 2.5g- Indica",
-        "price": "$32.50",
-        "meta": "THCa 46.83%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f0355b1f-e528-40eb-9ea2-0633132119b2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-glass-tip-5-pack-25g-indicaking-louis-xiii"
-    },
-    {
-        "name": "Fernway-[ Red Headed Strangers ]- 2.0g (T Pro)",
-        "price": "$100.00",
-        "meta": "THC 78.80%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9d5162b6-08f6-4c5c-bf99-271857492711?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/none/red-headed-strangers-20g-t-pro"
-    },
-    {
-        "name": "Cookies | Pre-Rolls | Multipack | Black Cherry Gelato | 2pk/1.0g",
-        "price": "$19.50",
-        "meta": "THCa 33.79%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8c8f1a49-a985-487d-b902-92ded7c94f99?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/cookies/cookies-pre-rolls-multipack-black-cherry-gelato-2pk10g"
-    },
-    {
-        "name": "Delight- Gelato Glaze 3.5G",
-        "price": "$29.25",
-        "meta": "THCa 34.75%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d254f35d-f6ce-4238-b231-bd70a9d234fd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-gelato-glaze-35g"
-    },
-    {
-        "name": "Select Essentials| GDP |Briq Disposable 2g- Indica",
-        "price": "$52.00",
-        "meta": "THC 87.02%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8b7ac756-5487-4e40-8040-72e5d74adb5b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-indicagdp"
-    },
-    {
-        "name": "High Wired-Animal Cake-Infused Pre Rolls Single-1.0g",
-        "price": "$19.50",
-        "meta": "THCa 50.56%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4ea757c6-7a89-4a37-ba1e-17f1856bb6b5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/high-wired/high-wired-animal-cake-infused-pre-rolls-single-10g"
-    },
-    {
-        "name": "Fernway- Pineland Diesel -1.0g (510)",
-        "price": "$39.00",
-        "meta": "THC 79%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1c85121f-73a6-4268-bafb-57bcaa02f2d9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/pineland-diesel-10g-510"
-    },
-    {
-        "name": "Anthem BOLD| Watermelon Z |Infused Preroll Wood Tip 5 Pack 2.5g- Hybrid",
-        "price": "$32.50",
-        "meta": "THCa 37.63%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1fb953b5-5b6c-40c5-b4e8-b55151f95c83?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-wood-tip-5-pack-25g-hybridwatermelon-z"
-    },
-    {
-        "name": "Kind Tree | Concentrates | Live Resin Badder | Banana Tree | 1g",
-        "price": "$42.25",
-        "meta": "THCa 77.02%",
-        "category": "CONCENTRATES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_279cedce-cb7a-4eac-a5cd-02b0f396959a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-concentrates-live-resin-badder-banana-tree-1g"
-    },
-    {
-        "name": "Delight- Cadillac Rainbow 3.5G",
-        "price": "$29.25",
-        "meta": "THCa 28.86%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_da6c66b4-a1a3-49ea-9cd9-99a44aff6b51?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-cadillac-rainbow-35g"
-    },
-    {
-        "name": "Delight- limoncello 3.5G",
-        "price": "$29.25",
+        "name": "Craft Kings| Citrus Haze | 7g",
+        "price": "$65.00",
         "meta": "THCa 29.96%",
         "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9f5b1fd6-2dd9-436b-b01b-e4f4e2bd78e3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-limoncello-35g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_850c956f-3931-445c-9e4a-581813a25671?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-citrus-haze-7g"
     },
     {
-        "name": "Select Essentials| Durban Poison |Briq Disposable 2g- Sativa",
-        "price": "$52.00",
-        "meta": "THC 87.27%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_22c62548-1252-457e-85fb-1f810081221d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-sativadurban-poison"
-    },
-    {
-        "name": "Sneaky Pete's - Grape Drank Infused Preroll 1g",
-        "price": "$18.20",
-        "meta": "THC 28.80%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_0ac8aee5-49d7-4fa3-83eb-7f1fee41907b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/sneaky-petes/sneaky-petes-grape-drank-infused-preroll-1g"
-    },
-    {
-        "name": "Kind Tree - Cookies | Pre-Rolls | Multipack | Pacman | 2pk/1.0g",
-        "price": "$19.50",
-        "meta": "THCa 28.73%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b61f42f6-1a77-4b85-bd50-9e7b80f2b28e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/cookies-pre-rolls-multipack-pacman-2pk10g"
-    },
-    {
-        "name": "Airo - Tropical Daydream (1g)",
-        "price": "$32.50",
-        "meta": "THC 82.13%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_bae73787-5cfd-4a76-9291-54d038f87efa?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/airo/airo-tropical-daydream-1g"
-    },
-    {
-        "name": "Niche |Spritzer | Pre-Roll (.5g - 2 Pack)",
-        "price": "$13.00",
-        "meta": "THCa 31.56%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_bfac08d2-4c22-4aa4-a9d7-c4c3d0bdc472?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/niche/spritzer-pre-roll-5g-2-pack"
-    },
-    {
-        "name": "Find- Some Pulp Mixed Buds 7g- Hybrid",
-        "price": "$45.50",
-        "meta": "THCa 26.48%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_51d7f190-c5a4-4881-b617-87d63f480fe6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-7g-hybridsome-pulp"
-    },
-    {
-        "name": "Grassroots Singapore Sling 3.5g- Sativa",
-        "price": "$32.50",
-        "meta": "THCa 28.90%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_99af9dc7-3d3a-4631-9006-33061d052255?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-prepack-whole-flower-35g-sativasingapore-sling"
-    },
-    {
-        "name": "Legend - Cookies | Vapes | CDT 3-in-1 Disposables | Apples and Bananas + Huckleberry Gelato | 2g",
-        "price": "$78.00",
-        "meta": "THC 88.37%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4c2a333d-d65a-4d92-8318-de1348d541e7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/cookies-vapes-cdt-3-in-1-disposables-apples-and-bananas-huckleberry-gelato-2g"
-    },
-    {
-        "name": "Find- Slingria 10 Preroll Pack 7g- Sativa",
-        "price": "$45.50",
-        "meta": "THCa 23.71%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b92e1bd4-2eb4-41cf-b938-a291e39a397f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prerolls-10-pack-7g-sativa-slingria"
-    },
-    {
-        "name": "Find-Zoo Kush Mixed Buds 3.5g- Indica",
-        "price": "$26.00",
-        "meta": "THCa 34.77%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9dd02323-057f-4153-8642-0b8c4071d8d1?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-indicazoo-kush"
-    },
-    {
-        "name": "Simply Herb-Crazy Kiwi Berry-Disposable Distillate Cart-1.0g",
-        "price": "$35.75",
-        "meta": "THC 90.30%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_20173778-50c7-403b-8aea-296a917be8a2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-crazy-kiwi-berry-disposable-distillate-cart-10g"
-    },
-    {
-        "name": "Anthem| Sativa Blend | Preroll 10 Pack 3.5g",
-        "price": "$26.00",
-        "meta": "THCa 27.52%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4658bd11-8e62-4268-a974-83411e6cc5c6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-preroll-10-pack-35g-sativasativa-blend"
-    },
-    {
-        "name": "Kind Tree | Pre-Rolls | Multipack | Dirty Banana | 5pk/1.75g",
-        "price": "$19.50",
-        "meta": "THCa 31.42%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8f6ed7cf-4042-46fb-9285-01bec35466ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-pre-rolls-multipack-dirty-banana-5pk175g"
-    },
-    {
-        "name": "Delight- Simmer Down PR 1G",
-        "price": "$9.75",
-        "meta": "THCa 26.14%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_36af48f6-3a13-43b8-8c6c-b4dbcf213fec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-simmer-down-pr-1g"
-    },
-    {
-        "name": "Lowell-The Chill Indica Blend-Pre Rolls 6 Pack-3.5g",
-        "price": "$22.75",
-        "meta": "THCa 22.64%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6cb6fff8-56e1-4290-8f96-dcb13454b250?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/lowell/lowell-the-chill-indica-blend-pre-rolls-6-pack-35g"
-    },
-    {
-        "name": "Craft Kings - Sativa Blend - Infused - pre roll - 1g",
-        "price": "$15.60",
-        "meta": "THC 36.33%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_db2707cd-b8b8-4e8a-935f-84858d55da80?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-sativa-blend-infused-pre-roll-1g"
-    },
-    {
-        "name": "Fernway- Mango -1.0 (510)",
+        "name": "Clade9 - J1 3.5g",
         "price": "$39.00",
-        "meta": "THC 78.62%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_09fbb25f-5475-455b-a08e-5e73a070ceac?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/mango-10-510"
+        "meta": "THCa 31.10%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_65df738e-dc3e-4db0-ae40-028b41689244?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-j1-35g"
     },
     {
-        "name": "Grassroots- Atomic Breath 3.5g- Hybrid",
+        "name": "Local Only - Locals Only - J1 - Wet Diamonds 1g",
         "price": "$32.50",
-        "meta": "THCa 34.44%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ccbcee45-eaff-40bc-ac6c-15ff3f42a90f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-prepack-whole-flower-35g-hybridatomic-breath"
-    },
-    {
-        "name": "Goodies - [Goodies] Candy | Pre-Roll Indica (.5g - 7 Pack)",
-        "price": "$29.25",
-        "meta": "THCa 37.62%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_60c32742-1f12-4c4b-ae0f-faa6c5aa9ec6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/goodies/goodies-candy-pre-roll-5g-7-pack-3"
-    },
-    {
-        "name": "Miss Grass-All Times Spark-Pre Rolls Single-0.40g",
-        "price": "$7.80",
-        "meta": "THCa 28.96%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7ba93759-0920-437c-8504-8eae536cbca2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-all-times-spark-pre-rolls-single-040g"
-    },
-    {
-        "name": "Select Essentials| Watermelon OG| Briq Disposable 2g-Indica",
-        "price": "$52.00",
-        "meta": "THC 82.96%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_32801604-8de6-417d-9df7-150d799c97c9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-indicawatermelon-og"
-    },
-    {
-        "name": "Cookies | Pre-Rolls | Multipack | Blue Suede | 2pk/1.0g",
-        "price": "$19.50",
-        "meta": "THCa 26.10%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f120913f-65cd-43fd-97b3-b77bf11b898e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/cookies/cookies-pre-rolls-multipack-blue-suede-2pk10g"
-    },
-    {
-        "name": "Simply Herb-Animal Cake-Flower-3.5g",
-        "price": "$26.00",
-        "meta": "THCa 23.58%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_dece08c8-7672-4f7c-b902-6c07af5c9730?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-animal-cake-flower-35g"
-    },
-    {
-        "name": "Ozone-Banana Rainbow-Pre Rolls Single-1.0g",
-        "price": "$6.50",
-        "meta": "THCa 25.63%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ad093f00-bf8a-42f8-8454-4cc55ee85ea1?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-banana-rainbow-pre-rolls-single-10g"
-    },
-    {
-        "name": "Fernway- Granddaddy Purple -1.0g(T)",
-        "price": "$42.25",
-        "meta": "THC 80.46%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3412a22d-5981-4778-8172-a08143d2507f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/granddaddy-purple-10gt"
-    },
-    {
-        "name": "Find- Berry Skunkset 10 Prerolls Pack 7g- Indica",
-        "price": "$45.50",
-        "meta": "THCa 20.15%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_88d38bad-29c1-4572-a377-922d2825f4ef?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prerolls-10-pack-7g-indica-berry-skunkset"
-    },
-    {
-        "name": "Camino Gummies - Camino Sours -Watermelon Spritz",
-        "price": "$22.75",
-        "meta": "THC 2.58%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c1a11b28-9c41-4107-b3c3-24ed203e854c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/camino-gummies/s-fg-watermelon-spritz"
-    },
-    {
-        "name": "Fernway-[ Alpine Strawberry ]-0.3g (T)",
-        "price": "$20.80",
-        "meta": "THC 82.85%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7b77f079-126b-4309-9f4e-aef27e5f4964?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/alpine-strawberry-03g-t"
-    },
-    {
-        "name": "Find- Primary Colors Mixed Buds 28g- Sativa",
-        "price": "$117.00",
-        "meta": "THCa 25.94%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f27bf71a-ec55-422a-87d8-45674618ef2b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-28g-sativaprimary-colors"
-    },
-    {
-        "name": "Find- Primary Colors Mixed Buds 7g- Sativa",
-        "price": "$45.50",
-        "meta": "THCa 28.36%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7eec507e-4d62-4238-9211-d651aea3bb9f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-7g-sativaprimary-colors"
-    },
-    {
-        "name": "Select Essentials| Black Cherry Maduro| Briq Disposable 2g-Indica",
-        "price": "$52.00",
-        "meta": "THC 81.79%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d5558f49-35c8-401b-8a0a-9a85ba79c179?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-indicablack-cherry-maduro"
-    },
-    {
-        "name": "Delight- Take 5 PR 1G",
-        "price": "$9.75",
-        "meta": "THCa 21.93%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d1545a59-aa7d-4c4e-b5f9-fde3d70647b2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-take-5-pr-1g"
-    },
-    {
-        "name": "Legend | Pre-Rolls | Multipack | Stankasaurus | 7pk/7.0g",
-        "price": "$35.75",
-        "meta": "THCa 28.45%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_dd385e21-fb39-42ca-931d-864cd1723348?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-pre-rolls-multipack-stankasaurus-7pk70g"
-    },
-    {
-        "name": "Kind Tree - Legend | Pre-Rolls | THCa and Terpene Infused Multipack | Tangy Lemon Kush | 5pk/2.5g",
-        "price": "$26.00",
-        "meta": "THCa 40.23%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_83448c1a-8ff1-4e27-84e0-a7f3709e3b23?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/legend-pre-rolls-thca-and-terpene-infused-multipack-tangy-lemon-kush-5pk25g"
-    },
-    {
-        "name": "Goodies - [Goodies] Gas | Pre-Roll Indica (.5g - 7 Pack)",
-        "price": "$29.25",
-        "meta": "THCa 36.06%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d978bd9b-a00c-41f0-a625-17659a093654?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/goodies/goodies-gas-pre-roll-5g-7-pack-1"
-    },
-    {
-        "name": "Find- Zoo Kush Mixed Buds 7g- Indica",
-        "price": "$45.50",
-        "meta": "THCa 33.81%",
-        "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_16cb0fef-b470-4497-ba9f-c85811184916?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-7g-indicazoo-kush"
+        "meta": "THCa 91.63%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_351ab087-69c5-4d8b-84f0-087afee7c0d7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/local-only/locals-only-j1-wet-diamonds-1g"
     },
     {
         "name": "KAI- Citrix 3.5G",
@@ -1008,180 +32,92 @@
         "url": "https://gsngdispensary.com/shop/kai/kai-citrix-35g"
     },
     {
-        "name": "KAI- Gypsy Soap PR .5G",
-        "price": "$6.50",
-        "meta": "THCa 20.66%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_073178be-36db-4281-bc85-eeda3f99c99a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-gypsy-soap-pr-5g"
-    },
-    {
-        "name": "Ozone-Banana Rainbow-Pre Rolls 5 pack -2.5g",
-        "price": "$16.25",
-        "meta": "THCa 25.63%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1e7154c2-2080-4625-bbdf-338d4161db19?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-banana-rainbow-pre-rolls-5-pack-25g-1"
-    },
-    {
-        "name": "Anthem| Hybrid Blend |Preroll 10 Pack 3.5g",
+        "name": "Simply Herb-Mandarin Z-Flower-3.5g",
         "price": "$26.00",
-        "meta": "THCa 26.70%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4025ceb0-a1e9-42e2-ab18-386f683d9779?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-preroll-10-pack-35g-hybridhybrid-blend"
-    },
-    {
-        "name": "JAMS Jellies |Sour Strawberry Lemonade |Fast Acting Gummies 20 Pack 100mg-Sativa",
-        "price": "$16.25",
-        "meta": "100mg",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6c01c51e-0955-48ee-a87e-74d8ec5dfd7c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/jam/jams-jellies-fast-acting-gummies-20-pack-100mg-sativasour-strawberry-lemonade"
-    },
-    {
-        "name": "Legend - Cookies | Vapes | CDT 3-in-1 Disposables | Gary Payton + Velvetz | 2g",
-        "price": "$78.00",
-        "meta": "THC 89.62%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d064c8d0-1ced-405e-b012-ded7c5909ffe?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/cookies-vapes-cdt-3-in-1-disposables-gary-payton-velvetz-2g"
-    },
-    {
-        "name": "Grassroots| Donny Burger |RSO Syringe 1.0g- Indica",
-        "price": "$24.05",
-        "meta": "THC 74.67%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_37882038-2145-4208-8729-34402e07b457?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-rso-syringe-10g-indicadonny-burger"
-    },
-    {
-        "name": "Anthem BOLD| Blue Raspberry Kush | Infused Preroll Wood Tip 5 Pack 2.5g- Indica",
-        "price": "$32.50",
-        "meta": "THCa 45.31%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_75b4903b-d3f8-4bd8-b2dc-ae7fe8e06b51?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-wood-tip-5-pack-25g-indicablue-raspberry-kush"
-    },
-    {
-        "name": "KAI- Peach Slushi PR 1G",
-        "price": "$9.75",
-        "meta": "THCa 22.95%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b1b680d3-0743-47ba-be25-1417e481e97d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-peach-slushi-pr-1g"
-    },
-    {
-        "name": "KAI- Bobby Brown 3.5G",
-        "price": "$29.25",
-        "meta": "THCa 35.72%",
+        "meta": "THCa 24.07%",
         "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3d93a061-327f-4808-8529-615cf2d8eba9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-bobby-brown-35g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3bfd3eb1-ac6d-44e5-8bfc-a0be0814eadd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-mandarin-z-flower-35g"
     },
     {
-        "name": "Delight- Take 5 PR .5G",
-        "price": "$6.50",
-        "meta": "THCa 21.93%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2d1435e0-ef33-4329-9c68-9b3e61f75b6a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/delight/delight-take-5-pr-5g"
-    },
-    {
-        "name": "Niche| Sinz | 3.5g",
+        "name": "Clade9 - Orange Push Pop 3.5g",
         "price": "$39.00",
-        "meta": "THCa 27.45%",
+        "meta": "THCa 33.84%",
         "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4bb66193-d4c3-4065-ba18-f0ddfe2bc02d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/niche/sinz-35g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_fe3b1786-615e-4bc3-8bf3-35d84cb40315?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-orange-push-pop-35g"
     },
     {
-        "name": "Lost Farm -Juicy Peach Live Resin",
-        "price": "$29.25",
-        "meta": "THC 2.50%",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3be24d3a-de11-46bb-b8cf-ecdae7c5cb33?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/lost-farm/lf-fg-juicy-peach"
+        "name": "Simply Herb-Banana Daddy-Flower-3.5g",
+        "price": "$26.00",
+        "meta": "THCa 23.78%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_a7d75cd2-124d-4167-b581-07f2a7b48518?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-banana-daddy-flower-35g"
     },
     {
-        "name": "Legend | Vapes | Live Terpene Disposable | Afghani Hills | 1g",
+        "name": "Craft Kings| Sativa Blend |1g Infused Pre-Roll",
+        "price": "$24.00",
+        "meta": "THC 35.39%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ffaa8262-598f-4104-874a-434b908a6da7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-sativa-blend-1g-pre-roll"
+    },
+    {
+        "name": "Kind Tree| Sour Diesel x Durban Poison | 3.5g",
+        "price": "$60.00",
+        "meta": "THCa 32.38%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d5b73baf-806f-4237-96b2-18172878bbe6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-sour-diesel-x-durban-poison-35g"
+    },
+    {
+        "name": "Clade9| G13 |7g",
+        "price": "$65.00",
+        "meta": "THCa 26.37%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4a124e29-ca47-4ead-8736-259201a345dd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-g137g"
+    },
+    {
+        "name": "Clade9 - Razberry Runtz - Flower - 3.5g",
         "price": "$39.00",
-        "meta": "THC 90.01%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_33ce1b0e-f2d0-443e-aeb3-5d1e2e28bfe1?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-afghani-hills-1g"
-    },
-    {
-        "name": "Select Essentials| Super Sour Diesel |Briq Disposable 2g- Sativa",
-        "price": "$52.00",
-        "meta": "THC 84.84%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_12a3f7c3-3b8c-4830-b1fd-e13a36eafc7b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-sativasuper-sour-diesel"
-    },
-    {
-        "name": "Kind Tree - Mango Mindset 3.5g",
-        "price": "$35.75",
-        "meta": "THCa 31.08%",
+        "meta": "THCa 28.82%",
         "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8efca0f3-1df6-4846-b2c7-ee259d6668ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-mango-mindset-35g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6b1c241a-8608-4a9a-94c4-ca4688b70608?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-razberry-runtz-flower-35g"
     },
     {
-        "name": "Miss Grass-Fast Times Spark-Pre Rolls Single-0.40g",
-        "price": "$7.80",
-        "meta": "THCa 26.71%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_47c4acb6-7206-404d-bd31-e3f6a9bdeffa?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-fast-times-spark-pre-rolls-single-040g"
+        "name": "Cookies| That Badu | 3.5g",
+        "price": "$60.00",
+        "meta": "THCa 26.33%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_325345f0-fe0d-4c8a-940f-7f9b09a387ae?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-flower-buds-that-badu-35g-ac"
     },
     {
-        "name": "Ozone-Robusta #4-Pre Rolls Single-1.0g",
-        "price": "$6.50",
-        "meta": "THCa 28.42%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4210484c-ad7c-41f9-8f08-1180dcbb9d2b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-robusta-4-pre-rolls-single-10g"
+        "name": "Kind Tree Reserve| Ice Cream Banger | 3.5g",
+        "price": "$65.00",
+        "meta": "THCa 31.15%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ecc56f57-ffeb-43c4-86e0-15c4ac0df5a5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-ice-cream-banger-35g"
     },
     {
-        "name": "Airo - Arctic Berry (1g)",
-        "price": "$32.50",
-        "meta": "THC 80.54%",
+        "name": "Clade9| Diamond Dust | Cured Resin 1.0g",
+        "price": "$45.50",
+        "meta": "THC 88.80%",
         "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f20d4440-1167-411b-94db-c66ff89581c0?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/airo/airo-arctic-berry-1g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1acc814a-22b3-4e30-bdd0-a7a1a3cbee17?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-bar-cr-vape"
     },
     {
-        "name": "Select Essentials| Lemon Cherry Gelato |Briq Disposable 2g- Hybrid",
-        "price": "$52.00",
-        "meta": "THC 84.66%",
+        "name": "Fernway - Space Queen - 1.0g (510)",
+        "price": "$60.00",
+        "meta": "THC 78.78%",
         "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_728dc5cf-6df8-44a0-8d23-a5fdbcb83f79?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/select/select-essentials-briq-disposable-2g-hybridlemon-cherry-gelato"
-    },
-    {
-        "name": "Simply Herb-Fruity Loops-Disposable Distillate Cart-1.0g",
-        "price": "$35.75",
-        "meta": "THC 90.17%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3b23398c-66a6-4956-82c9-258a5820b9ea?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-fruity-loops-disposable-distillate-cart-10g"
-    },
-    {
-        "name": "1906-Go-Tablets 20 Pack-100mg",
-        "price": "$19.50",
-        "meta": "100mg",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_defe0b9e-f264-4be9-942e-9c2c41fd7911?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/1906/1906-go-tablets-20-pack-100mg"
-    },
-    {
-        "name": "JAMS Jellies| Ruby Red Grapefruit | Classic Gummies 10 Pack 10mg-Sativa",
-        "price": "$16.25",
-        "meta": "10mg",
-        "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4630087a-6ae3-46b2-a668-ee8ac3072452?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/jam/jams-jellies-classic-gummies-10-pack-10mg-sativaruby-red-grapefruit"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_75860ebf-c605-482f-8af7-fb01fa28e8e9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/fernway/fernway-space-queen-10g-510"
     },
     {
         "name": "KAI- Modified Banana Pebbles 3.5G",
@@ -1192,116 +128,260 @@
         "url": "https://gsngdispensary.com/shop/kai/kai-modified-banana-pebbles-35g"
     },
     {
-        "name": "Miss Grass-Fast Times Minis-Pre Rolls 5 Pack-2.0g",
-        "price": "$22.10",
-        "meta": "THCa 29.88%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_225155e9-1e28-4dc0-a7ca-a7e67fe5e085?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-fast-times-minis-pre-rolls-5-pack-20g"
-    },
-    {
-        "name": "Find- Modified Goat 1G Preroll- Indica",
-        "price": "$8.45",
-        "meta": "THCa 33.82%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3e89f5d1-499a-4dd6-9ed2-a8fcb61f837a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-preroll-1g-indicamodified-goat"
-    },
-    {
-        "name": "Cookies | Pre-Rolls | Multipack | Pruno | 2pk/1.0g",
-        "price": "$19.50",
-        "meta": "THCa 27.50%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f120913f-65cd-43fd-97b3-b77bf11b898e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/cookies/cookies-pre-rolls-multipack-pruno-2pk10g"
-    },
-    {
-        "name": "Fernway -[ Lavender Dream ]-0.3g (T)",
-        "price": "$20.80",
-        "meta": "THC 83.50%",
+        "name": "Cookies| Hawaiian Rain | 1G Cart",
+        "price": "$65.00",
+        "meta": "THC 89.35%",
         "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6767221d-6200-4e14-b25e-13d87e447225?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/fernway/lavender-dream-03g-t"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c8ca9dea-b703-4476-99db-3fcae2d13f89?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cannabis-derived-cartridges-hawaiian-rain-1g"
     },
     {
-        "name": "Ozone-Rainbow Chip-Pre Rolls 5 Pack-2.5g",
-        "price": "$16.25",
-        "meta": "THCa 28.85%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_81b63d2e-c242-4171-9b3b-a7b334b80204?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-rainbow-chip-pre-rolls-5-pack-25g"
+        "name": "Goodies - [Goodies] Kush Mints | 1g",
+        "price": "$11.70",
+        "meta": "THCa 37.51%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_88156ab9-e5df-49a3-b36d-6ab114899de5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-kush-mints-1g"
     },
     {
-        "name": "Kind Tree | Concentrates | Live Resin Badder | Pink Guava | 1g",
-        "price": "$32.50",
-        "meta": "THCa 80.74%",
-        "category": "CONCENTRATES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_279cedce-cb7a-4eac-a5cd-02b0f396959a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-concentrates-live-resin-badder-pink-guava-1g"
+        "name": "Goodies - [Goodies] Gary Payton | 7g",
+        "price": "$65.00",
+        "meta": "THCa 32.14%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f4019df6-b77f-47a4-8e85-7d3efa6311ae?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-gary-payton-7g"
     },
     {
-        "name": "High Wired-Rainbow Chip-Infused Pre Rolls Single-1.0g",
-        "price": "$19.50",
-        "meta": "THCa 48.91%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6a10f981-2727-496c-aac2-4d3d744a584f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/high-wired/high-wired-rainbow-chip-infused-pre-rolls-single-10g"
+        "name": "Clade9 - J1 7gs",
+        "price": "$65.00",
+        "meta": "THCa 31.30%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d6039374-b80c-4883-b9d4-5f6dad4c0651?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-j1-7gs"
     },
     {
-        "name": "Miss Grass - QUIET TIMES - INFUSED - 1.0G PRE-ROLL",
-        "price": "$19.50",
-        "meta": "THCa 47.20%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e721c8d9-6c57-4204-a199-c41e87886e01?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-quiet-times-infused-10g-pre-roll"
+        "name": "Clade9 - Diamond Dust 7g",
+        "price": "$65.00",
+        "meta": "THCa 31.18%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f1b37f58-e2d5-40fc-ac7d-35952d2794e6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-dust-7g"
     },
     {
-        "name": "Ozone-Robusta #4-Pre Rolls 3 Pack-1.5g",
-        "price": "$9.75",
-        "meta": "THCa 33.05%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e12cfb7c-1a04-41a1-b904-f26b107d54dd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-robusta-4-pre-rolls-3-pack-15g"
+        "name": "Valhalla| Blackberry 1:1 (THC:CBN) | Heavy High Dose | 2pk /100mg",
+        "price": "$20.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b39ad5c3-02a0-479f-b9bc-b4c8a8172a36?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-edibles-heavy-high-dose-soft-lozenges-blackberry-11-thccbn-2pk100mg"
     },
     {
-        "name": "KAI- Bobby Brown PR .5G",
-        "price": "$6.50",
-        "meta": "THCa 28.52%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_40b92e29-f55e-4f26-ba84-088f9d256652?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-bobby-brown-pr-5g"
+        "name": "Valhalla - Green Apple",
+        "price": "$18.00",
+        "meta": "THC 93.27%",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1d6ee2f9-430c-4ad0-b690-34ebb5782577?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-green-apple"
     },
     {
-        "name": "Ozone-Bananarama-Pre Rolls 5 Pack-2.5g",
-        "price": "$16.25",
-        "meta": "THCa 27.43%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d0a4c32f-3133-4ba6-9703-1a18e8cbc2e7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/ozone/ozone-bananarama-pre-rolls-5-pack-25g"
+        "name": "Legend - Blue Raspberry 1g",
+        "price": "$40.00",
+        "meta": "THC 94.08%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_68f6a993-7464-4034-95eb-05158fd52d31?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/legend/legend-blue-raspberry-1g"
     },
     {
-        "name": "Legend | Vapes | Live Terpene Disposable | Jet Fuel | 1g",
+        "name": "Goodies - [Goodies] Blue Dream | 1g",
+        "price": "$11.70",
+        "meta": "THCa 28.69%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1a03400a-630f-4c1d-b303-585cd5af1dd0?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-blue-dream-1g"
+    },
+    {
+        "name": "Craft Kings|Citrus Haze|14g",
+        "price": "$104.00",
+        "meta": "THCa 28.14%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f1883047-6b7e-4e8d-97ea-3529bc207243?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kingscitrus-haze14g"
+    },
+    {
+        "name": "Clade9 | Lemon Cherry Gelato | Cured Resin 1.0g",
+        "price": "$45.50",
+        "meta": "THC 84.69%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d2860aa3-5d4f-4930-b28a-ad6f885bd955?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/lemon-cherry-gelato-cured-resin-cart-10g"
+    },
+    {
+        "name": "Cookies| Gary Payton + Pomegranate Shake | 2G 3-in-1 Disposable",
+        "price": "$70.00",
+        "meta": "THC 90.92%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_26f1ce32-4aaa-4275-9dbd-99e1ff53408e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cdt-3-in-1-disposables-gary-payton-pomegranate-shake-2g"
+    },
+    {
+        "name": "Clade9 | G13 |3.5g",
         "price": "$39.00",
-        "meta": "THC 84.22%",
+        "meta": "THCa 34.33%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5c86ccea-84da-4bfa-a72c-ecadb80ac42e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-g13-35g"
+    },
+    {
+        "name": "Kind Tree| Sour Diesel x Durban Poison | 7g",
+        "price": "$100.00",
+        "meta": "THCa 32.38%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4c7537d0-4189-45bd-aace-2890388e7b71?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-littles-sour-diesel-x-durban-poison-7g"
+    },
+    {
+        "name": "Cookies| Cherrymellow | 3.5g",
+        "price": "$60.00",
+        "meta": "THCa 28.28%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7915d362-4a7a-4ff0-9867-a2dd08fc2391?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-black-cherry-gelato-35g"
+    },
+    {
+        "name": "Clade9 - Diamond Bar 7g",
+        "price": "$65.00",
+        "meta": "THCa 34.54%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5d2d6fb0-6d2c-4ebc-8d1f-718e67d84e98?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-bar-7g"
+    },
+    {
+        "name": "Clade9 - Fig Bar - Flower - 1g",
+        "price": "$11.70",
+        "meta": "THCa 36.11%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-flower-1g"
+    },
+    {
+        "name": "Clade9 |Fig Bar | Cured Resin 1.0g",
+        "price": "$45.50",
+        "meta": "THC 86.42%",
         "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2f4702e5-4527-404a-9832-5d77889b2bc3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-jet-fuel-1g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ef1375c2-16c3-4076-9ab6-d60f2426e40b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/fig-bar-cured-resin-cart-10g"
     },
     {
-        "name": "Anthem BOLD| Blue Dream | Infused Preroll Glass Tip 1g- Hybrid",
-        "price": "$16.25",
-        "meta": "THCa 37.54%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5c92f6fb-98d6-4ad7-b12d-ab64ab48356f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-glass-tip-1g-hybridblue-dream"
+        "name": "Goodies - [Goodies] Kush Mints | 7g",
+        "price": "$65.00",
+        "meta": "THCa 37.51%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d57d7cc8-bf4f-42ee-aa3f-c6881b375c94?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-kush-mints-7g"
     },
     {
-        "name": "Legend | Vapes | Live Terpene Disposable | GMO | 1g",
+        "name": "Goodies - [Goodies] Wedding Pie | Pre-Ground (28g)",
+        "price": "$160.00",
+        "meta": "THCa 37.21%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c7f423f8-09c3-461e-acfd-0f23defb0e6b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-wedding-pie-pre-ground-28g"
+    },
+    {
+        "name": "Kind Tree - Chunky Monkey 3.5g",
+        "price": "$55.00",
+        "meta": "THCa 34.56%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8efca0f3-1df6-4846-b2c7-ee259d6668ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-chunky-monkey-35g-2"
+    },
+    {
+        "name": "CLade9 - Lemon Cherry Gelato - Flower - 3.5g",
         "price": "$39.00",
-        "meta": "THC 91.90%",
-        "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4744774c-9ed5-4eaa-bf5c-479733cf43d7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-live-terpene-disposable-gmo-1g"
+        "meta": "THCa 34.50%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ec5536ea-729e-48c0-911a-edee83d4520e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-lemon-cherry-gelato-flower-35g"
+    },
+    {
+        "name": "Find- Berry Skunkset 10 Prerolls Pack 7g- Indica",
+        "price": "$45.50",
+        "meta": "THCa 20.15%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_88d38bad-29c1-4572-a377-922d2825f4ef?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/find/find-prerolls-10-pack-7g-indica-berry-skunkset"
+    },
+    {
+        "name": "Find- Slingria 10 Preroll Pack 7g- Sativa",
+        "price": "$45.50",
+        "meta": "THCa 23.71%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b92e1bd4-2eb4-41cf-b938-a291e39a397f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/find/find-prerolls-10-pack-7g-sativa-slingria"
+    },
+    {
+        "name": "Find- Agent Z Mixed Buds 3.5g- Sativa",
+        "price": "$26.00",
+        "meta": "THCa 25.96%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8fd4f300-ff32-46ba-bd2d-4b5aa6a34660?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-sativaagent-z"
+    },
+    {
+        "name": "KAI- Gypsy Soap 3.5G",
+        "price": "$29.25",
+        "meta": "THCa 31.03%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c48ee7a4-1a78-4482-8778-60debf51ea98?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kai/kai-gypsy-soap-35g"
+    },
+    {
+        "name": "Kind Tree Reserve| White Iverson | 3.5g",
+        "price": "$65.00",
+        "meta": "THCa 34.84%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5169af40-38e2-4aa6-a8f1-0737dc8641ac?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-white-iverson-35g"
+    },
+    {
+        "name": "Anthem| Hybrid Blend |Preroll 10 Pack 3.5g",
+        "price": "$26.00",
+        "meta": "THCa 26.70%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4025ceb0-a1e9-42e2-ab18-386f683d9779?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/anthem/anthem-preroll-10-pack-35g-hybridhybrid-blend"
+    },
+    {
+        "name": "Niche| Ridgeline Lantz | Pre-Roll (.5g - 2 Pack)",
+        "price": "$11.70",
+        "meta": "THCa 35.27%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c224f7bc-4493-4ee6-b9fc-b59135c61467?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/ridgeline-lantz-pre-roll-5g-2-pack"
+    },
+    {
+        "name": "Goodies - [Goodies] GG4 | 1g",
+        "price": "$11.70",
+        "meta": "THCa 31.29%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2ac076d2-f872-469e-ab40-caf7208c076a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-gg4-1g"
+    },
+    {
+        "name": "Miss Grass-All Times Spark-Pre Rolls Single-0.40g",
+        "price": "$7.80",
+        "meta": "THCa 28.96%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7ba93759-0920-437c-8504-8eae536cbca2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-all-times-spark-pre-rolls-single-040g"
+    },
+    {
+        "name": "Clade9 - LA Piff - Flower - 1g",
+        "price": "$11.70",
+        "meta": "THCa 33.46%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2631f8ea-ece3-4d9c-8e2e-211b0c8fa005?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-la-piff-flower-1g"
     },
     {
         "name": "Find- Some Pulp 10 Prerolls Pack 7g- Hybrid",
@@ -1312,43 +392,947 @@
         "url": "https://gsngdispensary.com/shop/find/find-prerolls-10-pack-7g-hybridsome-pulp"
     },
     {
-        "name": "Kind Tree | Concentrates | Live Resin Sugar | Sour Diesel | 1g",
-        "price": "$42.25",
-        "meta": "THCa 86.45%",
-        "category": "CONCENTRATES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_279cedce-cb7a-4eac-a5cd-02b0f396959a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-concentrates-live-resin-sugar-sour-diesel-1g"
-    },
-    {
-        "name": "MISS GRASS- ALL TIMES INFUESED- 1.0G PRE-ROLL",
-        "price": "$19.50",
-        "meta": "THCa 51.85%",
-        "category": "PRE-ROLLS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7b6c39ee-c3fd-44ac-9054-604132d31db1?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-all-times-infuesed-10g-pre-roll"
-    },
-    {
-        "name": "Simply Herb-Watermelon Sangria-Disposable Distillate Cart-1.0g",
-        "price": "$39.00",
-        "meta": "THC 89.89%",
+        "name": "Cookies| Pacman | 0.5G Live Resin Cart",
+        "price": "$60.00",
+        "meta": "THC 82.55%",
         "category": "VAPORIZERS",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_96ef6e6d-34ba-4a8b-96f4-7085afcfede4?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-watermelon-sangria-disposable-distillate-cart-10g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_efc03717-347e-4ce2-a403-a0e00bb9b47c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-live-resin-cartridges-pacman-05g"
     },
     {
-        "name": "KAI- Peach Slushi 3.5G",
-        "price": "$29.25",
-        "meta": "THCa 30.35%",
+        "name": "Craft Kings | Fruit Stand |14g",
+        "price": "$104.00",
+        "meta": "THCa 26.63%",
         "category": "FLOWER",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7d2b4776-fb6f-429b-a660-f756fce08bb6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kai/kai-peach-slushi-35g"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4fabcbb6-2287-4c14-8395-12efe9cd2285?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-fruit-stand-14g"
     },
     {
-        "name": "JAMS Jellies| Sour Watermelon Lime |Fast Acting Gummies 20 Pack 100mg-Indica",
-        "price": "$16.25",
+        "name": "Cookies | Pre-Rolls | Multipack | Pruno | 2pk/1.0g",
+        "price": "$13.00",
+        "meta": "THCa 27.50%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f120913f-65cd-43fd-97b3-b77bf11b898e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-pre-rolls-multipack-pruno-2pk10g"
+    },
+    {
+        "name": "Craft Kings - Indica Infused - Pre Roll - 1g",
+        "price": "$15.60",
+        "meta": "THC 34.05%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_db2707cd-b8b8-4e8a-935f-84858d55da80?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-indica-infused-pre-roll-1g"
+    },
+    {
+        "name": "1906-Go-Tablets 20 Pack-100mg",
+        "price": "$19.50",
         "meta": "100mg",
         "category": "EDIBLES",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f96afb1e-b959-4490-add4-c1846c02329f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/jam/jams-jellies-fast-acting-gummies-20-pack-100mg-indicasour-watermelon-lime"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_defe0b9e-f264-4be9-942e-9c2c41fd7911?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/1906/1906-go-tablets-20-pack-100mg"
+    },
+    {
+        "name": "Clade9| Razberry Runtz | 1G",
+        "price": "$11.70",
+        "meta": "THCa 28.82%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1f9992ce-b9dd-4083-9cb7-d9697f9a22d8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-razberry-runtz-1g"
+    },
+    {
+        "name": "Clade9 - Diamond Bar 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 36.28%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9b203c21-4eaf-4b0a-92a5-d5a87f932de3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-bar-35g"
+    },
+    {
+        "name": "Craft Kings | Ice Cream Cake| 14g",
+        "price": "$104.00",
+        "meta": "THCa 30.91%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5efb5d53-384c-4c7d-9fef-19ce25f85a18?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-ice-cream-cake-14g"
+    },
+    {
+        "name": "Kind Tree Reserve| White Iverson | 7g",
+        "price": "$100.00",
+        "meta": "THCa 33.51%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_547601ad-ecc4-4943-9bda-881782e3055a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-white-iverson-7g"
+    },
+    {
+        "name": "Valhalla - Sour Watermelon",
+        "price": "$18.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_93521a9f-5161-4500-9ffc-e3d94fbfc483?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-sour-watermelon"
+    },
+    {
+        "name": "Ozone-Bananarama-Pre Rolls 5 Pack-2.5g",
+        "price": "$16.25",
+        "meta": "THCa 27.43%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d0a4c32f-3133-4ba6-9703-1a18e8cbc2e7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/ozone/ozone-bananarama-pre-rolls-5-pack-25g"
+    },
+    {
+        "name": "Craft Kings | Fruit Stand |7g",
+        "price": "$65.00",
+        "meta": "THCa 34.35%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e3bff085-687e-4940-97de-9a9873569008?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-fruit-stand-7g"
+    },
+    {
+        "name": "Niche | Spritzer | 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 34.98%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_09d797cc-d181-4c7c-b593-936f501706a3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/spritzer-35g"
+    },
+    {
+        "name": "Niche |Sinz | Pre-Roll (.5g - 2 Pack)",
+        "price": "$13.00",
+        "meta": "THCa 28.45%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b8f57d2a-a928-44a3-bce5-1388c7951eeb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/sinz-pre-roll-5g-2-pack"
+    },
+    {
+        "name": "Niche| Permanent Power #9 | 1g",
+        "price": "$11.05",
+        "meta": "THCa 29.98%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7371d4fa-4655-46ca-8dc1-9466b81213dc?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/permanent-power-9-1g"
+    },
+    {
+        "name": "Clade9 - J1 - Flower - 1g",
+        "price": "$11.70",
+        "meta": "THCa 31.30%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6f6eb2ce-0d5b-4263-8523-b2999b6ff7d8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-j1-flower-1g"
+    },
+    {
+        "name": "Fernway -[ Lavender Dream ]-0.3g (T)",
+        "price": "$20.80",
+        "meta": "THC 83.50%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6767221d-6200-4e14-b25e-13d87e447225?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/fernway/lavender-dream-03g-t"
+    },
+    {
+        "name": "Locals Only | Fig Bar | Wet Diamonds 1g",
+        "price": "$32.50",
+        "meta": "THCa 87.28%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_752e7f32-c498-4e59-8817-b1c69a2abc57?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-only-fig-bar-wet-diamonds-1g"
+    },
+    {
+        "name": "Cookies| Long Island | 0.5 Live Resin Cart",
+        "price": "$60.00",
+        "meta": "THC 86.25%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_19380ca8-e592-4142-af5a-08545c48f3a9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-live-resin-cartridges-long-island-05g"
+    },
+    {
+        "name": "Kind Tree - Mango Mindset 3.5g",
+        "price": "$35.75",
+        "meta": "THCa 31.08%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8efca0f3-1df6-4846-b2c7-ee259d6668ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-mango-mindset-35g"
+    },
+    {
+        "name": "Niche - Yellow Mermaid 3.5g",
+        "price": "$35.75",
+        "meta": "THCa 32.42%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b445d071-a0b8-4764-8357-0502101737cf?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/niche-yellow-mermaid-35g-1"
+    },
+    {
+        "name": "Craft Kings - Hybrid Blend Infused Pre-Roll 5 Pk 3.5g",
+        "price": "$45.50",
+        "meta": "THC 41.60%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_54ea371c-c164-472e-bba8-59c978349f11?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-hybrid-blend-infused-pre-roll-5-pk-35g"
+    },
+    {
+        "name": "Simply Herb-Fruit Lagoon-Disposable Distillate Cart-1.0g",
+        "price": "$35.75",
+        "meta": "THC 88.68%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_63a49538-6dc4-424f-8509-f10bb01ef7a5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-fruit-lagoon-disposable-distillate-cart-10g"
+    },
+    {
+        "name": "Lost Farm - Raspberry Live Resin",
+        "price": "$29.25",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_39050e99-0b86-4264-8693-48abd473768d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/lost-farm/lf-fg-raspberry"
+    },
+    {
+        "name": "Legend| Blueberry Muffin | 1G Cart",
+        "price": "$40.00",
+        "meta": "THC 91.75%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_68f6a993-7464-4034-95eb-05158fd52d31?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-natural-cartridges-blueberry-muffin-1g"
+    },
+    {
+        "name": "Clade9 - Diamond Dust 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 29.75%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c2076109-1e85-48a8-b9e9-35bd13c75127?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-dust-35g"
+    },
+    {
+        "name": "Lost Farm - Thorny Berry Live Resin",
+        "price": "$29.25",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_386287bf-c5b9-40a2-a679-423b4c7b6284?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/lost-farm/lf-fg-thorny-berry"
+    },
+    {
+        "name": "Goodies - [Goodies] Blue Dream | 7g",
+        "price": "$65.00",
+        "meta": "THCa 28.69%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f2805b8c-bc2d-4fad-bf50-e7b780cfb991?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-blue-dream-7g"
+    },
+    {
+        "name": "Niche |Spritzer | Pre-Roll (.5g - 2 Pack)",
+        "price": "$13.00",
+        "meta": "THCa 31.56%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_bfac08d2-4c22-4aa4-a9d7-c4c3d0bdc472?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/spritzer-pre-roll-5g-2-pack"
+    },
+    {
+        "name": "Goodies - [Goodies] Candy | Pre-Roll Hybrid (.5g - 7 Pack)",
+        "price": "$29.25",
+        "meta": "THCa 38.91%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2360d3a8-d269-4dbe-ac3b-d289f6db83a7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-candy-pre-roll-5g-7-pack-1"
+    },
+    {
+        "name": "Clade9 - Diamond Dust 1g",
+        "price": "$11.70",
+        "meta": "THCa 31.18%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b5bc82d1-f195-44af-a09f-b5e90bb149e7?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-dust-1g"
+    },
+    {
+        "name": "Legend| Marshmallow Puff | 2G Disposable",
+        "price": "$80.00",
+        "meta": "THC 95.36%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7a4d9e97-cba8-4292-beb0-01a17ad13bcf?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-natural-disposable-marshmallow-puff-2g"
+    },
+    {
+        "name": "Niche| Blue Nerdz | Pre-Roll (.5g - 2 Pack)",
+        "price": "$11.70",
+        "meta": "THCa 35.48%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_508f340e-1e83-4cf8-9c51-11eed32b6e8f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/blue-nerdz-pre-roll-5g-2-pack"
+    },
+    {
+        "name": "Clade9 - Diamond Bar 1g",
+        "price": "$11.70",
+        "meta": "THCa 34.54%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_dacc7979-ad6f-4d46-84c0-41503ec1a130?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-bar-1g"
+    },
+    {
+        "name": "Clade9| Orange Push Pop | Cured Resin 1.0g",
+        "price": "$45.50",
+        "meta": "THC 88.72%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b3eec576-5101-40cd-a0bd-4cc1721a3154?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/orange-push-pop-vape-cart-cr-1g"
+    },
+    {
+        "name": "Valhalla - Sweet Orange - Gummies - 10pk",
+        "price": "$18.00",
+        "meta": "THC 92.61%",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4f270358-fc4e-4343-8ee9-92dc49c8257d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-sweet-orange-gummies-10pk"
+    },
+    {
+        "name": "Legend - Raspberry Crush 1g",
+        "price": "$40.00",
+        "meta": "THC 86.81%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_018c1e20-29c8-4aec-bd5c-8986405fedbb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/legend/legend-raspberry-crush-1g"
+    },
+    {
+        "name": "Ozone-Banana Rainbow-Pre Rolls 5 pack -2.5g",
+        "price": "$16.25",
+        "meta": "THCa 25.63%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1e7154c2-2080-4625-bbdf-338d4161db19?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/ozone/ozone-banana-rainbow-pre-rolls-5-pack-25g-1"
+    },
+    {
+        "name": "Locals Only| Diamonds Bar | Wet Badder",
+        "price": "$32.50",
+        "meta": "THCa 84.91%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1b6c313a-eb88-4d77-8d54-11946020705f?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-only-diamonds-bar-wet-badder"
+    },
+    {
+        "name": "Goodies - [Goodies] Candy | Pre-Roll Indica (.5g - 7 Pack)",
+        "price": "$29.25",
+        "meta": "THCa 37.62%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_60c32742-1f12-4c4b-ae0f-faa6c5aa9ec6?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-candy-pre-roll-5g-7-pack-3"
+    },
+    {
+        "name": "Camino Gummies- Sparkling Pear 2 MG THC| 6 MG CBD",
+        "price": "$22.75",
+        "meta": "2 MG",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f02bee2d-85da-4212-8773-efeeb72364c9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-sparkling-pear"
+    },
+    {
+        "name": "Clade9| Lemon Cherry Gelato | 1G",
+        "price": "$11.70",
+        "meta": "THCa 34.81%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9d31808a-4663-4333-b450-dfae910f2bd5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-lemon-cherry-gelato-1g"
+    },
+    {
+        "name": "Craft Kings| Candy Cut | 7g",
+        "price": "$65.00",
+        "meta": "THCa 34.36%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7ee92b8c-ea4e-4557-861f-b7203eea0e6a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-candy-cut-7g"
+    },
+    {
+        "name": "Kind Tree Reserve | Cherry Slushee | 3.5g",
+        "price": "$65.00",
+        "meta": "THCa 31.68%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_fb3cccc6-84f1-41a0-b100-f917fbab651a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-cherry-slushee-35g"
+    },
+    {
+        "name": "Cookies| Blueberry Banana | 1G Cart",
+        "price": "$65.00",
+        "meta": "THC 90.47%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_776b2c6b-9751-4764-b8c4-4b7ce157cdfc?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cannabis-derived-cartridges-blueberry-banana-1g"
+    },
+    {
+        "name": "Miss Grass-Fast Times Spark-Pre Rolls Single-0.40g",
+        "price": "$5.40",
+        "meta": "THCa 26.71%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_47c4acb6-7206-404d-bd31-e3f6a9bdeffa?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-fast-times-spark-pre-rolls-single-040g"
+    },
+    {
+        "name": "Delight- Cadillac Rainbow 3.5G",
+        "price": "$29.25",
+        "meta": "THCa 28.86%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_da6c66b4-a1a3-49ea-9cd9-99a44aff6b51?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/delight/delight-cadillac-rainbow-35g"
+    },
+    {
+        "name": "Camino Gummies - Caminos Gummies- Pineapple Habanero",
+        "price": "$22.75",
+        "meta": "THC 1.55%",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d8a347ef-684e-47cc-a96a-d2ee42f451ff?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-pineapple-habanero"
+    },
+    {
+        "name": "Craft Kings |Skunky Funk |14g",
+        "price": "$104.00",
+        "meta": "THCa 31.39%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e5a0992c-76e4-4f74-8378-beb2591814b9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-skunky-funk-14g"
+    },
+    {
+        "name": "Clade9| Diamond Bar| Disposable Vape1g",
+        "price": "$50.00",
+        "meta": "THC 86.56%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_6e675fdb-800d-468b-a5b3-8305f64da54e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/diamond-bar-dispo"
+    },
+    {
+        "name": "Locals Only | Lemon Cherry Gelato |Wet Badder 1g",
+        "price": "$32.50",
+        "meta": "THCa 86.76%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d80316a9-0e3f-4f8b-97a9-d3c2d3cfd8df?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-only-lemon-cherry-gelato-wet-badder-1g"
+    },
+    {
+        "name": "Locals Only | Fig Bar | Wet Badder 1g",
+        "price": "$32.50",
+        "meta": "THCa 82.09%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_873340c1-8d3f-4632-a305-41556522de96?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-only-fig-bar-wet-badder-1g-1"
+    },
+    {
+        "name": "Craft Kings -Sativa Blend 5pk Infused preroll pack 3.5g",
+        "price": "$45.50",
+        "meta": "THC 33.37%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_54ea371c-c164-472e-bba8-59c978349f11?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-sativa-blend-5pk-infused-preroll-pack-35g"
+    },
+    {
+        "name": "Clade9 - Orange Push Pop 7gs",
+        "price": "$65.00",
+        "meta": "THCa 33.84%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d4010af4-fbfa-433e-8a0f-95252d599655?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-orange-push-pop-7gs"
+    },
+    {
+        "name": "Niche| Permanent Power #9 | 3.5g",
+        "price": "$32.50",
+        "meta": "THCa 29.98%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2b92ded1-bf5a-4c2a-9b97-2771f2a10991?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/permanent-power-9-35g"
+    },
+    {
+        "name": "Fernway- Pineland Diesel -1.0g (510)",
+        "price": "$60.00",
+        "meta": "THC 79%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1c85121f-73a6-4268-bafb-57bcaa02f2d9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/fernway/pineland-diesel-10g-510"
+    },
+    {
+        "name": "Valhalla | Edibles | Soft Lozenges | Grape RSO | 10pk/100mg",
+        "price": "$25.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b34ac28e-f50c-4e52-9284-4ec1a62b63d2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-edibles-soft-lozenges-grape-rso-10pk100mg"
+    },
+    {
+        "name": "Clade9| LA Piff | 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 33.46%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_12cfec16-6a6d-4b87-912e-62c23fa3375c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-la-piff-35g"
+    },
+    {
+        "name": "Locals Only| Diamonds Bar | Wet Diamonds 1g",
+        "price": "$32.50",
+        "meta": "THCa 84.91%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_046a44d5-c653-4c81-a519-b9b9566b338a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-only-diamonds-bar-wet-diamonds-1g"
+    },
+    {
+        "name": "Valhalla - Strawberry Lemonade",
+        "price": "$18.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_151370f2-ce3a-43de-9476-428ffcd52057?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-strawberry-lemonade"
+    },
+    {
+        "name": "Fernway- Mandarin Orange - 1.0g (510)",
+        "price": "$39.00",
+        "meta": "THC 80.96%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_200505e3-c6f1-43c2-8077-215f57eeb36b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/fernway/mandarin-orange-10g-510"
+    },
+    {
+        "name": "Craft Kings |Candy Cut |14g",
+        "price": "$104.00",
+        "meta": "THCa 33.48%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3126124e-e8c0-4a56-b41b-480aac4b8e77?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-candy-cut-14g"
+    },
+    {
+        "name": "Delight- limoncello 3.5G",
+        "price": "$29.25",
+        "meta": "THCa 29.96%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9f5b1fd6-2dd9-436b-b01b-e4f4e2bd78e3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/delight/delight-limoncello-35g"
+    },
+    {
+        "name": "Kind Tree Reserve| Cherry Slushee | 7g",
+        "price": "$100.00",
+        "meta": "THCa 37.46%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7c6618cc-4d86-4c2d-b7d9-086574e6ab45?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-cherry-slushee-7g"
+    },
+    {
+        "name": "Craft Kings - Indica Blend Infused Pre-Roll 5pk 3.5g",
+        "price": "$45.50",
+        "meta": "THC 37.57%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_54ea371c-c164-472e-bba8-59c978349f11?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-indica-blend-infused-pre-roll-5pk-35g"
+    },
+    {
+        "name": "Clade9 - Fig Bar 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 37.12%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d34e34e6-9856-4f43-a37c-99784556f517?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-35g"
+    },
+    {
+        "name": "Anthem BOLD| Watermelon Z |Infused Preroll Wood Tip 5 Pack 2.5g- Hybrid",
+        "price": "$32.50",
+        "meta": "THCa 37.63%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1fb953b5-5b6c-40c5-b4e8-b55151f95c83?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-wood-tip-5-pack-25g-hybridwatermelon-z"
+    },
+    {
+        "name": "Clade9| G13 | 1G",
+        "price": "$11.70",
+        "meta": "THCa 26.37%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2f1948db-2a4a-4550-9a01-1b8b1b6b9bc5?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-g13-1g"
+    },
+    {
+        "name": "Clade9 - LA Piff - Flower - 7g",
+        "price": "$65.00",
+        "meta": "THCa 33.46%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_2631f8ea-ece3-4d9c-8e2e-211b0c8fa005?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-la-piff-flower-7g"
+    },
+    {
+        "name": "Locals Only - Locals| Orange Push Pop | Wet Diamonds",
+        "price": "$32.50",
+        "meta": "THCa 91.11%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ea052dc1-167b-4702-94f8-b1df6c8673dc?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-orange-push-pop-wet-diamonds"
+    },
+    {
+        "name": "Kind Tree| Magic Marker | 3.5g",
+        "price": "$60.00",
+        "meta": "THCa 25.47%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_03aa7797-0087-47ae-9436-bca2a4afe2c8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-magic-marker-35g-1"
+    },
+    {
+        "name": "Cookies| Mexican Flan | 3.5g",
+        "price": "$60.00",
+        "meta": "THCa 31.49%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_18760cad-5347-4de8-8c95-741e3b4bbb40?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-flower-buds-mexican-flan-35g-ac"
+    },
+    {
+        "name": "Valhalla| Blasted Baha | Heavy High Dose 2pk/100mg",
+        "price": "$20.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_645986de-fb29-411d-9fb4-728d2208f662?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-edibles-heavy-high-dose-soft-lozenges-blasted-baha-2pk100mg"
+    },
+    {
+        "name": "KAI- Gypsy Soap PR .5G",
+        "price": "$6.50",
+        "meta": "THCa 20.66%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_073178be-36db-4281-bc85-eeda3f99c99a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kai/kai-gypsy-soap-pr-5g"
+    },
+    {
+        "name": "KAI- Bobby Brown PR .5G",
+        "price": "$6.50",
+        "meta": "THCa 28.52%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_40b92e29-f55e-4f26-ba84-088f9d256652?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kai/kai-bobby-brown-pr-5g"
+    },
+    {
+        "name": "Kind Tree | Concentrates | Live Resin Badder | Sour Diesel | 1g",
+        "price": "$32.50",
+        "meta": "THCa 75.06%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_279cedce-cb7a-4eac-a5cd-02b0f396959a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-concentrates-live-resin-badder-sour-diesel-1g"
+    },
+    {
+        "name": "Goodies - [Goodies] Animal Tsunami | 7g",
+        "price": "$65.00",
+        "meta": "THCa 36.18%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_0cf37b58-4017-4db2-83cf-7e39896a14d1?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-animal-tsunami-7g"
+    },
+    {
+        "name": "Clade9 - Orange Push Pop 1g",
+        "price": "$11.70",
+        "meta": "THCa 34.38%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f95f3fe6-63fe-4b46-be13-928f2127c83c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-orange-push-pop-1g"
+    },
+    {
+        "name": "Niche| Sinz | 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 27.45%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4bb66193-d4c3-4065-ba18-f0ddfe2bc02d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/sinz-35g"
+    },
+    {
+        "name": "Cookies| Cereal Milk + Cinnamon Milk | 2G 3-in-1 Disposables",
+        "price": "$70.00",
+        "meta": "THC 90.94%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_344471ef-d69c-4fd3-8f38-73e13020186d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cdt-3-in-1-disposables-cereal-milk-cinnamon-milk-2g"
+    },
+    {
+        "name": "Camino Gummies - Camino Sours -Orchard Peach 10MG THC| 10MG CBD",
+        "price": "$22.75",
+        "meta": "10MG",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_ae8b9c7a-e95b-4992-9284-0c9422bdea5a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/camino-gummies/s-fg-orchard-peach"
+    },
+    {
+        "name": "Cookies | Pre-Rolls | Multipack | Black Cherry Gelato | 2pk/1.0g",
+        "price": "$13.00",
+        "meta": "THCa 33.79%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8c8f1a49-a985-487d-b902-92ded7c94f99?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-pre-rolls-multipack-black-cherry-gelato-2pk10g"
+    },
+    {
+        "name": "Craft Kings | Ice Cream Cake | 7g",
+        "price": "$65.00",
+        "meta": "THCa 32.89%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b93dc200-bb85-4649-8a34-6e648502a86d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-ice-cream-cake-7g"
+    },
+    {
+        "name": "Cookies| AMF + Long Island | 2G CDT 3-in-1 Disposables",
+        "price": "$70.00",
+        "meta": "THC 85.99%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c0263c84-5fe6-492c-a83d-d31346eda49c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cdt-3-in-1-disposables-amf-long-island-2g"
+    },
+    {
+        "name": "Simply Herb-Animal Cake-Flower-3.5g",
+        "price": "$26.00",
+        "meta": "THCa 23.58%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_dece08c8-7672-4f7c-b902-6c07af5c9730?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-animal-cake-flower-35g"
+    },
+    {
+        "name": "Cookies| London Pound Cake #75 | 1G Cart",
+        "price": "$65.00",
+        "meta": "THC 91.48%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_c15fcc0f-b1ce-4b95-bb09-4926ca8c9956?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cannabis-derived-cartridges-london-pound-cake-75-1g"
+    },
+    {
+        "name": "Clade9 | Figueroa OG | Cured Resin 1.0g",
+        "price": "$45.50",
+        "meta": "THC 84.83%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_59dcb029-c57a-476a-bb91-c154b95b361b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/figueroa-og-cured-resin-cart-10g"
+    },
+    {
+        "name": "Niche - [Josh D] Sunkiss OG | 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 37.73%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b015e2a5-1004-433d-bb7d-25cb517e136b?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/josh-d-sunkiss-og-35g"
+    },
+    {
+        "name": "Kind Tree| Permanent Chimera | 3.5g",
+        "price": "$60.00",
+        "meta": "THCa 34.97%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d690e8b5-8d36-43e5-95e7-2c53588cb088?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-permanent-chimera-35g"
+    },
+    {
+        "name": "Niche| Fatso | Pre-Roll (.5g - 2 Pack)",
+        "price": "$11.70",
+        "meta": "THCa 40.93%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_7d62994b-ea09-43ce-9e34-afb5248903df?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/fatso-pre-roll-5g-2-pack"
+    },
+    {
+        "name": "Clade9 - Fig Bar 7g",
+        "price": "$65.00",
+        "meta": "THCa 32.13%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-7g"
+    },
+    {
+        "name": "Craft Kings | Skunky Funk | 7g",
+        "price": "$65.00",
+        "meta": "THCa 34.47%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e4b21fc7-e34a-4acf-b837-e0d665228935?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/craft-kings/craft-kings-skunky-funk-7g"
+    },
+    {
+        "name": "Valhalla| Watermelon | Heavy High Dose 2pk/100mg",
+        "price": "$20.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3769b3e1-9419-4563-8d05-07e98b1e839e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-edibles-heavy-high-dose-soft-lozenges-watermelon-2pk100mg"
+    },
+    {
+        "name": "Goodies - [Goodies] Wedding Pie | 7g",
+        "price": "$65.00",
+        "meta": "THCa 37.21%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_90086f10-13ff-4b99-a95c-0af23dc7eca2?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-wedding-pie-7g"
+    },
+    {
+        "name": "Niche| Lemon Cherry Gelato | 3.5g",
+        "price": "$32.50",
+        "meta": "THCa 33.07%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f0c1bbb9-e29f-4035-b86d-daa226fbb6ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/lemon-cherry-gelato-35g"
+    },
+    {
+        "name": "Clade9 | J1 | Cured Resin 1.0g",
+        "price": "$45.50",
+        "meta": "THC 86.19%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_88e588c3-693d-44c5-a321-a9a80e3151fd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/j1-vape-cart-cr-1g-1"
+    },
+    {
+        "name": "Miss Grass-Quiet Times Spark-Pre Rolls Single-0.40g",
+        "price": "$5.40",
+        "meta": "THCa 27.50%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_13667c8c-852f-4bfd-9d92-dad27bc090a8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/miss-grass/miss-grass-quiet-times-spark-pre-rolls-single-040g"
+    },
+    {
+        "name": "Legend| Blueberry Muffin | 2G Disposable",
+        "price": "$80.00",
+        "meta": "THC 94.38%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_517786b6-a541-4686-81bc-811d4227c1ab?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/legend/legend-vapes-natural-disposable-blueberry-muffin-2g"
+    },
+    {
+        "name": "Delight- Gelato Glaze 3.5G",
+        "price": "$29.25",
+        "meta": "THCa 34.75%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d254f35d-f6ce-4238-b231-bd70a9d234fd?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/delight/delight-gelato-glaze-35g"
+    },
+    {
+        "name": "Locals Only| Orange Push Pop| Wet Badder 1g",
+        "price": "$32.50",
+        "meta": "THCa 82.72%",
+        "category": "CONCENTRATES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_83f8b556-9bfd-4848-8716-92b8f3641f15?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/locals-only/locals-only-orange-push-pop-wet-badder-1g-1"
+    },
+    {
+        "name": "KAI- Bobby Brown 3.5G",
+        "price": "$29.25",
+        "meta": "THCa 35.72%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3d93a061-327f-4808-8529-615cf2d8eba9?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kai/kai-bobby-brown-35g"
+    },
+    {
+        "name": "Camino Gummies -Wild Berry",
+        "price": "$22.75",
+        "meta": "THC 1.28%",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_136fc5d5-c797-40f7-bacd-bcc7eab02b04?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/camino-gummies/c-fg-wild-berry"
+    },
+    {
+        "name": "Cookies| Mexican Flan | 7g",
+        "price": "$100.00",
+        "meta": "THCa 31.49%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_42f142d7-3845-4bf9-9067-715a1a8f1725?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-flower-littles-mexican-flan-7g-ac"
+    },
+    {
+        "name": "Goodies - [Goodies] Gas | Pre-Roll Hybrid (.5g - 7 Pack)",
+        "price": "$29.25",
+        "meta": "THCa 39.82%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_eaee59cd-5c0a-4359-9fc4-2c040d9e61e8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-gas-pre-roll-5g-7-pack-3"
+    },
+    {
+        "name": "Goodies - [Goodies] Gas | Pre-Roll Indica (.5g - 7 Pack)",
+        "price": "$29.25",
+        "meta": "THCa 36.06%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_d978bd9b-a00c-41f0-a625-17659a093654?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-gas-pre-roll-5g-7-pack-1"
+    },
+    {
+        "name": "Niche - [Josh D] OG Kiss | 3.5",
+        "price": "$60.00",
+        "meta": "THCa 31.43%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_edfeae31-87b7-4a7e-909b-ef778371a421?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/josh-d-og-kiss-35"
+    },
+    {
+        "name": "Kind Tree| Cherry Slushee | 7g",
+        "price": "$100.00",
+        "meta": "THCa 34.13%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_839b1155-f7fa-491f-a63c-3f566b19f3d0?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-littles-cherry-slushee-7g-ac"
+    },
+    {
+        "name": "Cookies| Snow Man + Snow Montana | 2G 3-in-1 Disposable",
+        "price": "$70.00",
+        "meta": "THC 89.65%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_e0867c1d-e03b-407b-b0cb-d6d6a174f338?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-cdt-3-in-1-disposables-snow-man-snow-montana-2g"
+    },
+    {
+        "name": "Delight- Bomb St. Runtz 3.5",
+        "price": "$29.25",
+        "meta": "THCa 36.32%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_cc9df91d-753b-49ff-b41f-62b965d63941?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/delight/delight-bomb-st-runtz-35"
+    },
+    {
+        "name": "Simply Herb-Pink Lemonade Blast-Disposable Distillate Cart-1.0g",
+        "price": "$35.75",
+        "meta": "THC 87.29%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_34b8ed63-c892-4ae6-bbe2-6998d758732d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/simply-herb/simply-herb-pink-lemonade-blast-disposable-distillate-cart-10g"
+    },
+    {
+        "name": "Lost Farm -Juicy Peach Live Resin",
+        "price": "$29.25",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_3be24d3a-de11-46bb-b8cf-ecdae7c5cb33?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/lost-farm/lf-fg-juicy-peach"
+    },
+    {
+        "name": "KAI- Peach Slushi PR 0.5G",
+        "price": "$6.50",
+        "meta": "THCa 22.95%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_a8e011ae-6ce1-4f8a-8cc2-3bafdebb807e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kai/kai-peach-slushi-pr-05g"
+    },
+    {
+        "name": "Anthem BOLD| Blue Raspberry Kush | Infused Preroll Wood Tip 5 Pack 2.5g- Indica",
+        "price": "$32.50",
+        "meta": "THCa 45.31%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_75b4903b-d3f8-4bd8-b2dc-ae7fe8e06b51?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/anthem/anthem-bold-infused-preroll-wood-tip-5-pack-25g-indicablue-raspberry-kush"
+    },
+    {
+        "name": "Valhalla | Edibles | Soft Lozenges | Pineapple RSO | 10pk/100mg",
+        "price": "$25.00",
+        "meta": "100mg",
+        "category": "EDIBLES",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_231ad6a0-db62-434d-a76e-cf9a7072c894?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/valhalla/valhalla-edibles-soft-lozenges-pineapple-rso-10pk100mg"
+    },
+    {
+        "name": "Kind Tree - Glitter Bomb 3.5g",
+        "price": "$55.00",
+        "meta": "THCa 39%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8efca0f3-1df6-4846-b2c7-ee259d6668ec?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-glitter-bomb-35g"
+    },
+    {
+        "name": "Fernway - Space Queen - 1.0g (T)",
+        "price": "$42.25",
+        "meta": "THC 81.41%",
+        "category": "VAPORIZERS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_4441d61b-1f2d-4c5b-b350-a43f46a034f4?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/fernway/fernway-space-queen-10g-t"
+    },
+    {
+        "name": "Goodies - [Goodies] Cherry Runtz | 7g",
+        "price": "$65.00",
+        "meta": "THCa 24.94%",
+        "category": "FLOWER",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_cd00f4b3-6a88-465c-8001-679db1b7cfd0?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/goodies/goodies-cherry-runtz-7g"
+    },
+    {
+        "name": "KAI- Peach Slushi PR 1G",
+        "price": "$9.75",
+        "meta": "THCa 22.95%",
+        "category": "PRE-ROLLS",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b1b680d3-0743-47ba-be25-1417e481e97d?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kai/kai-peach-slushi-pr-1g"
     }
 ]
