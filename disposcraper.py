@@ -5,13 +5,19 @@ import random
 from playwright.async_api import async_playwright
 
 # Configuration
+#CATEGORIES = [
+#    {"name": "FLOWER", "url": "https://gsngdispensary.com/shop/categories/flower"},
+#    {"name": "PRE-ROLLS", "url": "https://gsngdispensary.com/shop/categories/pre-rolls"},
+#    {"name": "VAPORIZERS", "url": "https://gsngdispensary.com/shop/categories/vaporizers"},
+#    {"name": "EDIBLES", "url": "https://gsngdispensary.com/shop/categories/edibles"},
+#    {"name": "CONCENTRATES", "url": "https://gsngdispensary.com/shop/categories/concentrates"}
+#]
+#
+
 CATEGORIES = [
-    {"name": "FLOWER", "url": "https://gsngdispensary.com/shop/categories/flower"},
-    {"name": "PRE-ROLLS", "url": "https://gsngdispensary.com/shop/categories/pre-rolls"},
-    {"name": "VAPORIZERS", "url": "https://gsngdispensary.com/shop/categories/vaporizers"},
-    {"name": "EDIBLES", "url": "https://gsngdispensary.com/shop/categories/edibles"},
-    {"name": "CONCENTRATES", "url": "https://gsngdispensary.com/shop/categories/concentrates"}
+    {"name": "ON-THE-GO", "url": "https://gsngdispensary.com/shop/categories/on-the-go"}
 ]
+
 OUTPUT_FILE = "products.json"
 BASE_URL = "https://gsngdispensary.com"
 
