@@ -1,5 +1,13 @@
 [
     {
+        "name": "Clade9 - Fig Bar 7g",
+        "price": "$65.00",
+        "meta": "THCa 32.13%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-7g"
+    },
+    {
         "name": "Clade9 | G13 |3.5g",
         "price": "$36.00",
         "meta": "THCa 34.33%",
@@ -8,28 +16,28 @@
         "url": "https://gsngdispensary.com/shop/clade9/clade9-g13-35g"
     },
     {
+        "name": "Kind Tree| Magic Marker | 3.5g",
+        "price": "$39.00",
+        "meta": "THCa 25.47%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_03aa7797-0087-47ae-9436-bca2a4afe2c8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-magic-marker-35g-1"
+    },
+    {
+        "name": "Cookies| Pacman | 0.5G Live Resin Cart",
+        "price": "$39.00",
+        "meta": "THC 82.55%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_efc03717-347e-4ce2-a403-a0e00bb9b47c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-live-resin-cartridges-pacman-05g"
+    },
+    {
         "name": "Clade9 - Fig Bar - Flower - 1g",
         "price": "$10.80",
         "meta": "THCa 36.11%",
         "category": "ON-THE-GO",
         "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
         "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-flower-1g"
-    },
-    {
-        "name": "Clade9 - Fig Bar 7g",
-        "price": "$60.00",
-        "meta": "THCa 32.13%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-7g"
-    },
-    {
-        "name": "Kind Tree| Magic Marker | 3.5g",
-        "price": "$36.00",
-        "meta": "THCa 25.47%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_03aa7797-0087-47ae-9436-bca2a4afe2c8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-magic-marker-35g-1"
     },
     {
         "name": "Delight- Cadillac Rainbow 3.5G",
@@ -41,18 +49,10 @@
     },
     {
         "name": "Kind Tree Reserve| White Iverson | 7g",
-        "price": "$60.00",
+        "price": "$65.00",
         "meta": "THCa 33.51%",
         "category": "ON-THE-GO",
         "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_547601ad-ecc4-4943-9bda-881782e3055a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
         "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-white-iverson-7g"
-    },
-    {
-        "name": "Cookies| Pacman | 0.5G Live Resin Cart",
-        "price": "$36.00",
-        "meta": "THC 82.55%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_efc03717-347e-4ce2-a403-a0e00bb9b47c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-live-resin-cartridges-pacman-05g"
     }
 ]
