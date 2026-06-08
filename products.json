@@ -1,75 +1,11 @@
 [
     {
-        "name": "Kind Tree| Magic Marker | 3.5g",
-        "price": "$27.00",
-        "meta": "THCa 25.47%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_03aa7797-0087-47ae-9436-bca2a4afe2c8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-magic-marker-35g-1"
-    },
-    {
-        "name": "Clade9 | G13 |3.5g",
-        "price": "$27.00",
-        "meta": "THCa 34.33%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5c86ccea-84da-4bfa-a72c-ecadb80ac42e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/clade9/clade9-g13-35g"
-    },
-    {
         "name": "Cookies| Pacman | 0.5G Live Resin Cart",
         "price": "$42.00",
         "meta": "THC 82.55%",
         "category": "ON-THE-GO",
         "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_efc03717-347e-4ce2-a403-a0e00bb9b47c?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
         "url": "https://gsngdispensary.com/shop/cookies/cookies-vapes-live-resin-cartridges-pacman-05g"
-    },
-    {
-        "name": "Unbranded | Bulbz | Mixed Buds 28g",
-        "price": "$70.00",
-        "meta": "THCa 22.98%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_21e572a4-ea98-4e32-ba31-ef5c465a1165?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/unbranded/unbranded-prepack-mixed-buds-28g-indicabulbz"
-    },
-    {
-        "name": "Find- Muffin Grease Mixed Buds 3.5g- Hybrid",
-        "price": "$16.80",
-        "meta": "THCa 26.16%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1caa4d3e-acff-44b7-b493-9dfcbfaef147?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-hybridmuffin-grease"
-    },
-    {
-        "name": "Find | Agent Z | Mixed Buds 3.5g",
-        "price": "$10.80",
-        "meta": "THCa 25.96%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8fd4f300-ff32-46ba-bd2d-4b5aa6a34660?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-sativaagent-z"
-    },
-    {
-        "name": "Niche | Sinz | Pre-Roll (.5g - 2 Pack)",
-        "price": "$10.40",
-        "meta": "THCa 28.45%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b8f57d2a-a928-44a3-bce5-1388c7951eeb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/niche/sinz-pre-roll-5g-2-pack"
-    },
-    {
-        "name": "Kind Tree Reserve| White Iverson | 7g",
-        "price": "$45.00",
-        "meta": "THCa 33.51%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_547601ad-ecc4-4943-9bda-881782e3055a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-white-iverson-7g"
-    },
-    {
-        "name": "Clade9 - Fig Bar - Flower - 1g",
-        "price": "$8.10",
-        "meta": "THCa 36.11%",
-        "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-flower-1g"
     },
     {
         "name": "Unbranded | Agent Z | Mixed Buds 28g",
@@ -80,12 +16,12 @@
         "url": "https://gsngdispensary.com/shop/unbranded/unbranded-prepack-mixed-buds-28g-sativaagent-z"
     },
     {
-        "name": "Grassroots| Triple Stack | Dark Heart Collection Smalls 14g",
-        "price": "$97.50",
-        "meta": "THCa 34.89%",
+        "name": "Clade9 | G13 |3.5g",
+        "price": "$27.00",
+        "meta": "THCa 34.33%",
         "category": "ON-THE-GO",
-        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9737eaf2-7f0c-47f0-a2ea-1c213f802135?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
-        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-dark-heart-collection-prepack-smalls-14g-indicatriple-stack"
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_5c86ccea-84da-4bfa-a72c-ecadb80ac42e?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-g13-35g"
     },
     {
         "name": "Clade9 - Diamond Bar 3.5g",
@@ -94,5 +30,69 @@
         "category": "ON-THE-GO",
         "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9b203c21-4eaf-4b0a-92a5-d5a87f932de3?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
         "url": "https://gsngdispensary.com/shop/clade9/clade9-diamond-bar-35g"
+    },
+    {
+        "name": "Find- Muffin Grease Mixed Buds 3.5g- Hybrid",
+        "price": "$16.80",
+        "meta": "THCa 26.16%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_1caa4d3e-acff-44b7-b493-9dfcbfaef147?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-hybridmuffin-grease"
+    },
+    {
+        "name": "Kind Tree Reserve| White Iverson | 7g",
+        "price": "$45.00",
+        "meta": "THCa 33.51%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_547601ad-ecc4-4943-9bda-881782e3055a?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-premium-buds-white-iverson-7g"
+    },
+    {
+        "name": "Find | Agent Z | Mixed Buds 3.5g",
+        "price": "$10.80",
+        "meta": "THCa 25.96%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_8fd4f300-ff32-46ba-bd2d-4b5aa6a34660?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/find/find-prepack-mixed-buds-35g-sativaagent-z"
+    },
+    {
+        "name": "Clade9 - Fig Bar - Flower - 1g",
+        "price": "$8.10",
+        "meta": "THCa 36.11%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_f91ac108-8de5-4c8a-8106-51b485d66180?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/clade9/clade9-fig-bar-flower-1g"
+    },
+    {
+        "name": "Kind Tree| Magic Marker | 3.5g",
+        "price": "$27.00",
+        "meta": "THCa 25.47%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_03aa7797-0087-47ae-9436-bca2a4afe2c8?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/kind-tree/kind-tree-flower-buds-magic-marker-35g-1"
+    },
+    {
+        "name": "Unbranded | Bulbz | Mixed Buds 28g",
+        "price": "$70.00",
+        "meta": "THCa 22.98%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_21e572a4-ea98-4e32-ba31-ef5c465a1165?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/unbranded/unbranded-prepack-mixed-buds-28g-indicabulbz"
+    },
+    {
+        "name": "Grassroots| Triple Stack | Dark Heart Collection Smalls 14g",
+        "price": "$97.50",
+        "meta": "THCa 34.89%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_9737eaf2-7f0c-47f0-a2ea-1c213f802135?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/grassroots/grassroots-dark-heart-collection-prepack-smalls-14g-indicatriple-stack"
+    },
+    {
+        "name": "Niche | Sinz | Pre-Roll (.5g - 2 Pack)",
+        "price": "$10.40",
+        "meta": "THCa 28.45%",
+        "category": "ON-THE-GO",
+        "image": "https://dispense-images.imgix.net/e2075dbd8d4324f9_b8f57d2a-a928-44a3-bce5-1388c7951eeb?ixlib=js-2.3.2&fit=fill&h=300&w=300&quality=100&auto=format%2Ccompress&q=50&cs=tinysrgb",
+        "url": "https://gsngdispensary.com/shop/niche/sinz-pre-roll-5g-2-pack"
     }
 ]
