@@ -142,6 +142,13 @@
                 const response = await fetch(url);
                 if (!response.ok) throw new Error("File not found");
                 let newData = await response.json();
+                
+                // Keep only products flagged for ON-THE-GO or ON THE GO
+                newData = newData.filter(item => {
+                    const categoryLabel = (item.category || "").toUpperCase().trim();
+                    return categoryLabel === 'ON-THE-GO' || categoryLabel === 'ON THE GO';
+                });
+
                 newData = shuffleArray(newData);
                 if (JSON.stringify(newData) !== JSON.stringify(products)) {
                     products = newData;
