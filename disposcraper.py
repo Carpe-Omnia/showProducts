@@ -10,10 +10,8 @@ CATEGORIES = [
     {"name": "PRE-ROLLS", "url": "https://gsngdispensary.com/shop/categories/pre-rolls"},
     {"name": "VAPORIZERS", "url": "https://gsngdispensary.com/shop/categories/vaporizers"},
     {"name": "EDIBLES", "url": "https://gsngdispensary.com/shop/categories/edibles"},
-    {"name": "CONCENTRATES", "url": "https://gsngdispensary.com/shop/categories/concentrates"},
-    {"name": "ON-THE-GO", "url": "https://gsngdispensary.com/shop/categories/on-the-go"}
+    {"name": "CONCENTRATES", "url": "https://gsngdispensary.com/shop/categories/concentrates"}
 ]
-
 
 OUTPUT_FILE = "products.json"
 BASE_URL = "https://gsngdispensary.com"
@@ -22,7 +20,6 @@ async def handle_age_gate(page):
     """Detects and clicks the specific 'Yes' button on the age gate."""
     print("[*] Checking for age verification gate...")
     try:
-        # Use a more specific selector and wait for it to be clickable
         yes_button = page.locator('button.age-gate__submit--yes[data-submit="yes"]')
         if await yes_button.is_visible(timeout=5000):
             print("[!] Age gate detected. Clicking 'Yes'...")
@@ -58,7 +55,6 @@ async def scrape_page_products(page, category_label):
     for card in cards:
         try:
             # 1. Get Product URL (Crucial for QR code embedding)
-            # Find the primary link inside the card
             link_el = await card.query_selector('a[href*="/shop/products/"]')
             if not link_el:
                 link_el = await card.query_selector('a')
@@ -129,6 +125,31 @@ async def scrape_page_products(page, category_label):
             img_el = await card.query_selector('img')
             img_url = await img_el.get_attribute('src') if img_el else ""
 
+            # === NEW DATA POINTS ===
+            
+            # 8. Strain Type (Indica, Sativa, Hybrid)
+            strain_type = "N/A"
+            type_el = await card.query_selector('[data-testid*="cannabis-type-tag"]')
+            if type_el:
+                strain_type = (await type_el.inner_text()).strip()
+            else:
+                # Fallback regex on the entire card text
+                strain_match = re.search(r"\b(indica|sativa|hybrid)\b", card_text, re.IGNORECASE)
+                if strain_match:
+                    strain_type = strain_match.group(1).capitalize()
+
+            # 9. Weight (Grams - specifically skipped for Edibles)
+            weight_val = "N/A"
+            if category_label != "EDIBLES":
+                weight_el = await card.query_selector('[data-testid*="weight"], [data-testid*="variant-weight"]')
+                if weight_el:
+                    weight_val = (await weight_el.inner_text()).strip()
+                else:
+                    # Fallback regex to grab patterns like "3.5g", "1g", "0.5g", "28g"
+                    weight_match = re.search(r"\b(\d+(?:\.\d+)?\s*(?:g|gram|grams))\b", card_text, re.IGNORECASE)
+                    if weight_match:
+                        weight_val = weight_match.group(1).strip()
+
             if name != "Unknown":
                 products.append({
                     "name": full_name,
@@ -136,7 +157,9 @@ async def scrape_page_products(page, category_label):
                     "meta": meta_val,
                     "category": category_label,
                     "image": img_url,
-                    "url": full_url # Saved for QR generation in index.html
+                    "url": full_url,
+                    "strain_type": strain_type,
+                    "weight": weight_val
                 })
         except Exception:
             continue
